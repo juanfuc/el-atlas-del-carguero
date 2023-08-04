@@ -1,0 +1,21 @@
+{
+    "inicio": {
+      "viz": {"filter":[["modelo", "=", "torres"]], "type": "pack", "x": "modelo", "y": "periodo"},
+      "title": "Costumbres",
+      "text": "",
+      "options": [ { "btn": ">>>", "scene": "detalleCargueroFondo" } ]
+    },
+    "detalleCargueroFondo":{
+      "viz": {"filter":[[]], "type":"compare", "x":209, "y":210},
+      "options": [ { "btn": ">>>", "scene": "compareChampan" } ]
+    }, 
+    "compareChampan":{
+      "viz": {"filter":[[]], "type":"compare", "x":213, "y":214},
+      "options": [ { "btn": ">>>", "scene": "compareFerrocarril" } ]
+    },
+    "compareFerrocarril":{
+      "viz": {"filter":[[]], "type":"compare", "x":34, "y":215},
+      "options": [ { "btn": ">>>", "scene": "compareFerrocarril" }]
+    }
+
+   }

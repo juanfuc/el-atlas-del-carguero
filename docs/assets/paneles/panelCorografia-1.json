@@ -1,0 +1,143 @@
+{
+    "inicio": {
+      "viz": {"filter": [[]], "type": "compare", "x": 193, "y": 194},
+      "titulo": "Funciones de las lámimas",
+      "opciones": [{"btn": "Antioquia", "scene": "cargueroManizales"}, {"btn": "Chocó", "scene": "cargueroChoco"}]
+    },
+    "cargueroManizales":{
+      "imagen":"assets/imgs/30.jpg",
+      "meta": "29",
+      "opciones": [{"btn": "Vista del nevado del Ruiz", "scene": "vistaRuiz"}]
+    },
+    "vistaRuiz": {
+      "viz": {"filter": [[]], "type": "compare", "x": 195, "y": 196},
+      "opciones": [{"btn": "Mapa", "scene": "mapaCordova"}]
+    },
+    "mapaCordova": {
+      "imagen": "assets/imgs/204.jpg",
+      "meta": "197",
+      "opciones": [{"btn": "Raza", "scene": "tiposHumanos"}],
+      "areas": [
+        {
+          "x": 10830,
+          "y": 1559,
+          "w": 771,
+          "h": 1281,
+          "btn": "",
+          "tooltip": "",
+          "scene": "convenciones"
+        },
+        {
+          "x": 10100,
+          "y": 5846,
+          "w": 2102,
+          "h": 1708,
+          "btn": "",
+          "tooltip": "",
+          "scene": "perspectiva"
+        },
+        {
+          "x": 919,
+          "y": 5986,
+          "w": 952,
+          "h": 1363,
+          "btn": "",
+          "tooltip": "",
+          "scene": "productos"
+        },
+        {
+          "x": 1634,
+          "y": 7144,
+          "w": 2250,
+          "h": 886,
+          "btn": "",
+          "tooltip": "",
+          "scene": "escalas"
+        },
+        {
+          "x": 2101,
+          "y": 1691,
+          "w": 3284,
+          "h": 2332,
+          "btn": "",
+          "tooltip": "",
+          "scene": "posiciones"
+        },
+        {
+          "x": 5115,
+          "y": 6273,
+          "w": 673,
+          "h": 459,
+          "btn": "",
+          "tooltip": "",
+          "scene": "manizales"
+        },
+        {
+          "x": 7128,
+          "y": 4927,
+          "w": 2792,
+          "h": 2102,
+          "btn": "",
+          "tooltip": "",
+          "scene": "sonson"
+        }
+      ]
+    },
+    "convenciones": {
+      "imagen":"assets/imgs/208.jpg",
+      "meta": "201",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+    },
+    "perspectiva": {
+      "imagen": "assets/imgs/205.jpg",
+      "meta": "198",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}, {"btn": "Humboldt", "scene": "perfilesHumboldt"}, {"btn": "Caldas", "scene": "perfilesCaldas"}]
+    },
+    "productos": {
+      "imagen":"assets/imgs/207.jpg",
+      "meta": "200",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+
+    }, "escalas": {
+      "imagen":"assets/imgs/209.jpg",
+      "meta": "202",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+    },
+    "posiciones": {
+      "imagen":"assets/imgs/206.jpg",
+      "meta": "199",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+    },
+    "manizales": {
+      "imagen":"assets/imgs/210.jpg",
+      "meta": "203",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+    },
+    "sonson": {
+      "imagen":"assets/imgs/211.jpg",
+      "meta": "204",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+    },
+    "perfilesHumboldt": {
+      "viz": {"filter": [[]], "type": "compare", "x": 198, "y": 110},
+      "opciones": [{"btn": "<<<", "scene": "perspectiva"}]
+    },
+    "perfilesCaldas":{
+      "viz": {"filter": [[]], "type": "compare", "x": 198, "y": 116},
+      "opciones": [{"btn": "<<<", "scene": "perspectiva"}]
+    },
+    "tiposHumanos": {
+      "imagen":"assets/imgs/212.jpg",
+      "meta": "205",
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+    },
+    "cargueroChoco": {
+      "imagen":"assets/imgs/39.jpg",
+      "meta": "30",
+      "opciones": [{"btn": "Gauthier", "scene": "gauthier"}]
+    },
+    "gauthier": {
+      "viz": {"filter": [["autor", "=", "Léon Gauthier"], ["fecha", "<", "1900"]], "type": "pack", "x": "autor", "y": "autor"},
+      "opciones": [{"btn": "Provincia de Córdova", "scene": "casaTunja"}]
+    } 
+   }

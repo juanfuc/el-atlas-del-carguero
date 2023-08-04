@@ -1,0 +1,11 @@
+{
+    "inicio": {
+      "viz": {"filter":[["modelo", "=", "corografica"]], "type": "pack", "x": "modelo", "y": "modelo"},
+      "title": "Cargueros, corografía",
+      "text": "",
+      "options": [ { "btn": ">>>", "scene": "personal" } ]
+    },
+    "personal": {
+      "viz": {"filter": [["autor", "=", "Léon Gauthier"], ["fecha", "<", "1900"]], "type": "pack", "x": "autor", "y": "autor"}
+    }
+   }

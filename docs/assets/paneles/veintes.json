@@ -1,0 +1,498 @@
+{
+  "inicio": {
+    "imagen": "assets/imgs/montajes/montaje-veintes.png",
+    "texto": "<h3>Redes de imágenes relacionadas con imágenes de cargueros hechas por viajeros entre 1820 y 1830</h3><br><p>Esta visualización pretende mostrar algunas imaágenes de cargueros de hombres hechas por viajeros que estuvieron en la Gran Colombia durante el período que va de 1820 a 1830. Los cargueros eran personajes que ayudaban a los viajeros a atravesar lugares difíciles de la topografía andina cargando en sus espaldas bienes o personas en sillas o artefactos acondicionados para tal fin. El carguero era un personaje comunmente representado por los viajeros en descripciones o imágenes. El oficio de estos personajes cuasaba gran impresión a los viajeros. Solía funcionar como una muestra de las dificultades de movilizarse por el territorio de la República en formación, las condiciones de sus vías de comunicación, y el estado civilizatorio de sus habitantes. Para describir el oficio de los cargueros, se solían usar metáforas y analogías con las que se comparaba a lo cargueros con caballos y otros animales de carga.<br></br>Las imágenes con las que se representaba a los cargueros también sirven para mostrar algunos aspectos de la circulación de imágenes en el período. Se puede apreciar que algunas de estas imágenes fueron hechas a partir del uso de modelos de imágenes hechas previamente por otros viajeros. Esto no solo es interesante en la medida en que permita identificar las fuentes “originales” y las “copias”, sino, también, en la medida que permite observar  prácticas de elaboración de imágenes -uso de modelos, copias, reapropiaciones, autorías múltiples-, modos de funcionamiento, circuitos de circulación, trayectorias, uso de formatos y medios diferenciados, etc. El caso del carguero, lo usaremos como un ejemplo de algunos problemas históricos que se pueden encontrar en las imágenes de los viajeros que visitaron Colombia en el período.<br></br>En el panel que se muestra en la parte superior se pueden encontrar tres grupos de imágenes. Ingresa a los hipervínvulos y navega a través de las diferentes opciones para saber más.</p>",
+    "areas": [
+      {
+        "x": 2600,
+        "y": 1360,
+        "w": 5200,
+        "h": 2720,
+        "texto": "",
+        "escena": "montajeVeintes1"
+      },
+      {
+        "x": 1400,
+        "y": 3900,
+        "w": 2800,
+        "h": 2400,
+        "texto": "",
+        "escena": "montajeVeintes2"
+      },
+      {
+        "x": 4920,
+        "y": 3692,
+        "w": 3360,
+        "h": 2904,
+        "texto": "",
+        "escena": "montajeVeintes3"
+      }
+    ]
+  },
+  "montajeVeintes1": {
+    "texto": "<h3>Montaje de imágenes de cargueros hechas por viajeros que se derivan del boceto de Roulin</h3>",
+    "imagen": "assets/imgs/montajes/montaje-veintes1.png",
+    "areas": [
+      {
+        "x": 1070,
+        "y": 800,
+        "w": 1800,
+        "h": 1400,
+        "texto": "",
+        "escena": "bocetoRoulin"
+      },
+      {
+        "x": 2762,
+        "y": 810,
+        "w": 1360,
+        "h": 910,
+        "texto": "",
+        "escena": "cargueroOrbigny"
+      },
+      {
+        "x": 780,
+        "y": 2120,
+        "w": 730,
+        "h": 1080,
+        "texto": "",
+        "escena": "cargueroHamilton"
+      },
+      {
+        "x": 1810,
+        "y": 2000,
+        "w": 1095,
+        "h": 794,
+        "texto": "",
+        "escena": "cargueroOsculati"
+      },
+      {
+        "x": 3855,
+        "y": 725,
+        "w": 620,
+        "h": 880,
+        "texto": "",
+        "escena": "cargueroLattre"
+      },
+      {
+        "x": 3216,
+        "y": 1900,
+        "w": 1520,
+        "h": 1044,
+        "texto": "",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "x": 4620,
+        "y": 690,
+        "w": 680,
+        "h": 1040,
+        "texto": "",
+        "escena": "cargueroEtienne"
+      }
+    ],
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroEtienne": {
+    "texto": "<h3>Voyage a dos d'Indien. C. P. Etienne. Nouvelle-Grenade: Aperçu General sur la Colombie et recits de voyages en Amérique. (Geneve: M. Richter, 1887)</h3>",
+    "imagen": "assets/imgs/44.jpg",
+    "escena": "montajeVeintes1"
+  },
+  "bocetoRoulin": {
+    "texto": "<h3>Campamento camino del Quindio</3><br><h4>Francois Desire Roulin</h4><br><h5>1824-1825, Boceto a tinta. <br> Fuente: Marguerite Combes, Pauvre et aventureuse. Bourgeoisie. Roulin et ses amis (1796-1874), (Paris: Peyronnet, 1929)</h5>",
+    "imagen": "assets/imgs/8.jpg",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes1"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroOrbigny": {
+    "texto": "<h3>Le passage du Quindiu entre Ibague y Cartago</h3><br><h4>Alcide d'Orbigny. Original de Francois Desire Roulin</h4><br><h5>1836, Grabado. <br>Fuente: Alcide D’Orbigny, Voyage pittoresque dans les deux Amériques (Chez L. Tenré, Libraire-éditeur)</h5>",
+    "imagen": "assets/imgs/19.jpg",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes1"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroHamilton": {
+    "texto": "<h3>-Edward Francis Finden (grab.). Vista del paso del Quindío, en la provincia de Popayán y cargueros o cargadores que lo atraviesan. Aguafuerte sobre papel. John Potter Hamilton, Travels through the interior provinces of Columbia 1827. (Londres: John Murray, 1827)</h3>",
+    "imagen": "assets/imgs/11.jpg",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes1"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroOsculati": {
+    "texto": "<h3>Anónimo. Sin Título. S/F. Basado en originales de Gaetano Osculati. Museo Nacional.</h3>",
+    "imagen": "assets/imgs/12.jpg",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes1"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroLattre": {
+    "texto": "<h3>La silla: manière de porter les voyageurs dans le Quindiu.</h3><h4>A de Lattre. Original de Francois Desire Roulin</h4><h5>1848, Grabado.</h5><h5>Fuente: Le Magasin pittoresque, 16, 1848</h5><p> El grabado del relato de viajes de M. A de Lattre fue publicado en el Magasin Pittoresque, una revista editada por el saintsimoniano Édouard Charton, reconocida por ser una publicación pionera de la prensa ilustrada francesa. La imagen proviene de una red de copias y apropiaciones que se remonta al boceto de fecha incierta elaborado por François Désiré Roulin. Este a su vez sirvió de modelo al grabado de silleros aparecido en relato de Alcide D’Orbigny. En el contexto del relato, esta imagen le sirve a A de Lattre como referencia para comparar el modo de llevar a cabo el oficio de los cargueros, o estiveros, que él tuvo que usar en su viaje desde Pasto a Putumayo, con el modo de llevar a cabo el oficio de los cargueros del camino del Quindío, de las montañas del Chocó o de las montañas de Antioquia. El carguero que utiliza A de Latrre, o estrivero, implementa una tecnología denominada el tablillo, mucho más incómoda que la de aquel que se encuentra en el camino del Quindiu. Sin embargo, también afirma que, a pesar de ser “menos conveniente”, se acomoda más al “país” por el que debía atravesar, contexto en el cual el uso de una silla sería 'impracticable'. En 1849 apareció la misma imagen, aunque atribuyéndole el crédito a otro dibujante y sin atribuciones al grabado, en la versión española del artículo de la revista francesa publicado en el Semanario Pintoresco Español en 1849 atribuido a 'un viajero'</p>.<img src='imgs/img31.png'><h3>s/t</h3><h4>Cordech</h4><h5>1849, Grabado.</h5><h5>Fuente: Semanario Pintoresco Español 12 (1849): 91</h5><p>Así mismo, otro ejemplar de la imagen puede encontrarse, con las mismas atribuciones al dibujante y al grabador, en una revista alemana, Das Pfennig-Magazin, publicada en 1851.</p><img src='imgs/img32.png'><h3>'Die Silla'</h3><h4>AHC. Rose</h4> <h5>Fuente: Das Pfennig-Magazin 19 (1851).</h5><p>De acuerdo con un modelo de producción de impresos y de distribución y comercialización popularizado por The Penny Magazine -la directa competidora de The Saturday Magazine-, era habitual que entre estas revistas se compraran entre ellas los artículos y las planchas xilográficas para producir las imágenes y de esta manera llenar el contenido de las propias publicaciones. Estas revistas estaban orientadas a un público amplio y tenían un ánimo de instrucción y educación popular.</p>",
+    "imagen": "assets/imgs/22.jpg",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes1"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroUniverso": {
+    "texto": "<h3>Anónimo. Costumes / Colombie. Aguafuerte coloreado sobre papel. Tomado de L'Univers. Histoire et Description de tous les Peuples. Bresil par Ferdinand Denis & Colombie et Guyanes par Cesar Famin (Paris: Firmin Didot Frères, Éditeurs, 1837).</h3>",
+    "imagen": "assets/imgs/18.jpg",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes1"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ],
+    "areas": [
+      {
+        "x": 1046,
+        "y": 846,
+        "w": 428,
+        "h": 936,
+        "texto": "",
+        "escena": "plantadorSurinam"
+      },
+      {
+        "x": 740,
+        "y": 502,
+        "w": 474,
+        "h": 760,
+        "texto": "",
+        "escena": "cargueroHamilton1"
+      },
+      {
+        "x": 104,
+        "y": 904,
+        "w": 214,
+        "h": 738,
+        "texto": "",
+        "escena": "sacerdoteRoulin"
+      },
+      {
+        "x": 286,
+        "y": 220,
+        "w": 174,
+        "h": 444,
+        "texto": "",
+        "escena": "colgadaBlake"
+      },
+      {
+        "x": 434,
+        "y": 818,
+        "w": 262,
+        "h": 644,
+        "texto": "",
+        "escena": "cargandoRoulin"
+      },
+      {
+        "x": 302,
+        "y": 892,
+        "w": 256,
+        "h": 396,
+        "texto": "",
+        "escena": "agachadoRoulin"
+      },
+      {
+        "x": 1310,
+        "y": 700,
+        "w": 228,
+        "h": 724,
+        "texto": "",
+        "escena": "señoraRoulin"
+      },
+      {
+        "x": 1554,
+        "y": 826,
+        "w": 554,
+        "h": 852,
+        "texto": "",
+        "escena": "indiosBenedetti"
+      },
+      {
+        "x": 1890,
+        "y": 860,
+        "w": 262,
+        "h": 786,
+        "texto": "",
+        "escena": "indiaBenedetti"
+      },
+      {
+        "x": 1872,
+        "y": 380,
+        "w": 284,
+        "h": 566,
+        "texto": "",
+        "escena": "colgadoBlake"
+      }
+    ]
+  },
+  "colgadoBlake": {
+    "texto": "<h3> William Blake. Un negro colgado vivo, por los costados, de una horca. Aguafuerte sobre papel. Tomado de Stedman, John Gabriel Narración de una expedición de cinco años contra los negros rebeldes de Surinam, en Guayana, en la costa salvaje de Sudamérica; del año 1772 a 1777; en que se elucida la historia de ese país y se describen sus productos, como cuadrúpedos, aves, peces, reptiles, árboles, arbustos, frutos y raíces, con un recuento sobre los indios de Guayana y los negros de Guinea (Londres: J. Johnson, St. Paul’s Church Yard, & J. Edwards, Pall Mall, 1796)</h3>",
+    "imagen": "assets/imgs/191.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "indiaBenedetti": {
+    "texto": "<h3>Michele Benedetti. India de la nación arawaca. Aguafuerte sobre papel. Tomado de Stedman, John Gabriel Narración de una expedición de cinco años contra los negros rebeldes de Surinam, en Guayana, en la costa salvaje de Sudamérica; del año 1772 a 1777; en que se elucida la historia de ese país y se describen sus productos, como cuadrúpedos, aves, peces, reptiles, árboles, arbustos, frutos y raíces, con un recuento sobre los indios de Guayana y los negros de Guinea. (Londres: J. Johnson, St. Paul’s Church Yard, & J. Edwards, Pall Mall, 1796)</h3>",
+    "imagen": "assets/imgs/190.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "indiosBenedetti": {
+    "texto": "<h3>Michele Benedetti. Familia india de la nación caribe. Aguafuerte sobre papel. Tomado de Stedman, John Gabriel Narración de una expedición de cinco años contra los negros rebeldes de Surinam, en Guayana, en la costa salvaje de Sudamérica; del año 1772 a 1777; en que se elucida la historia de ese país y se describen sus productos, como cuadrúpedos, aves, peces, reptiles, árboles, arbustos, frutos y raíces, con un recuento sobre los indios de Guayana y los negros de Guinea.. (Londres: J. Johnson, St. Paul’s Church Yard, & J. Edwards, Pall Mall, 1796)</h3>",
+    "imagen": "assets/imgs/189.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "señoraRoulin": {
+    "texto": "<h3>François Desirée Roulin (dib.) Legrand (grab.). Dama de la cordillera. Dama de la sabana. Aguafuerte y aguatinta sobre papel. Tomado de Gaspard Theodore Mollien. Voyage dans la République de Colombia, en 1823 (Paris: A. Bertrand, 1824)</h3>",
+    "imagen": "assets/imgs/185.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "agachadoRoulin": {
+    "texto": "<h3>François Desirée Roulin (dib.) Legrand (grab.).Vendedora de aves. Mendigo. Peón. Aguafuerte y aguatinta sobre papel. Tomado de Gaspard Theodore Mollien. Voyage dans la République de Colombia, en 1823 (Paris: A. Bertrand, 1824)</h3>",
+    "imagen": "assets/imgs/186.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargandoRoulin": {
+    "texto": "<h3>François Desirée Roulin (dib.) Legrand (grab.). Indígenas de la Sabana de Bogotá. Aguafuerte y aguatinta sobre papel. Tomado de Gaspard Theodore Mollien. Voyage dans la République de Colombia, en 1823 (Paris: A. Bertrand, 1824)</h3>",
+    "imagen": "assets/imgs/184.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "colgadaBlake": {
+    "texto": "<h3>William Blake. Flagelación de una esclava samba. Aguafuerte sobre papel. Tomado de Stedman, John Gabriel Narración de una expedición de cinco años contra los negros rebeldes de Surinam, en Guayana, en la costa salvaje de Sudamérica; del año 1772 a 1777; en que se elucida la historia de ese país y se describen sus productos, como cuadrúpedos, aves, peces, reptiles, árboles, arbustos, frutos y raíces, con un recuento sobre los indios de Guayana y los negros de Guinea. (Londres: J. Johnson, St. Paul’s Church Yard, & J. Edwards, Pall Mall, 1796)</h3>",
+    "imagen": "assets/imgs/192.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "sacerdoteRoulin": {
+    "texto": "<h3>François Desirée Roulin (dib.) Legrand (grab.). Sacerdote. Rico burgués. Gral en jefe de la República. Aguafuerte y aguatinta sobre papel. Tomado de Gaspard Theodore Mollien. Voyage dans la République de Colombia, en 1823 (Paris: A. Bertrand, 1824</h3>",
+    "imagen": "assets/imgs/187.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "plantadorSurinam": {
+    "texto": "<h3>Francesco Bartolozzi. Plantador de Surinam con su vestido matutino. Aguafuerte sobre papel. Tomado de Stedman, John Gabriel Narración de una expedición de cinco años contra los negros rebeldes de Surinam, en Guayana, en la costa salvaje de Sudamérica; del año 1772 a 1777; en que se elucida la historia de ese país y se describen sus productos, como cuadrúpedos, aves, peces, reptiles, árboles, arbustos, frutos y raíces, con un recuento sobre los indios de Guayana y los negros de Guinea.. (Londres: J. Johnson, St. Paul’s Church Yard, & J. Edwards, Pall Mall, 1796</h3>",
+    "imagen": "assets/imgs/193.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroHamilton1": {
+    "texto": "<h3>Edward Francis Finden (grab.). Vista del paso del Quindío, en la provincia de Popayán y cargueros o cargadores que lo atraviesan. Aguafuerte sobre papel. John Potter Hamilton, Travels through the interior provinces of Columbia 1827. (Londres: John Murray, 1827)</h3>",
+    "imagen": "assets/imgs/11.jpg",
+    "escena": "cargueroUniverso",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "cargueroUniverso"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "montajeVeintes2": {
+    "texto": "<h3>Montaje de imágenes de cargueros hechas por viajeros que se derivan del carguero de Gosselman</h3>",
+    "imagen": "assets/imgs/montajes/montaje-veintes2.png",
+    "escena": "cargueroGosselman",
+    "areas": [
+      {
+        "x": 1180,
+        "y": 510,
+        "w": 1040,
+        "h": 870,
+        "texto": "",
+        "escena": "cargueroGosselman"
+      }
+    ],
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroGosselman": {
+    "texto": "<h3>Carguero que se enceuntra en el libro de Gosselman. 1824</h3>",
+    "imagen": "imgs/img10.png",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes2"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "montajeVeintes3": {
+    "texto": "<h3>Montaje de imágenes de cargueros hechas por viajeros derivadas del carguero de Cochrane</h3>",
+    "imagen": "assets/imgs/montajes/montaje-veintes3.png",
+    "areas": [
+      {
+        "x": 1352,
+        "y": 744,
+        "w": 712,
+        "h": 1264,
+        "texto": "",
+        "escena": "cargueroCochrane"
+      }
+    ],
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "inicio"
+      }
+    ]
+  },
+  "cargueroCochrane": {
+    "texto": "<h3>Carguero que se enceuntra en el libro de Cochrane</h3>",
+    "imagen": "imgs/img11.png",
+    "escena": "inicio",
+    "opciones": [
+      {
+        "btn": "Volver",
+        "escena": "montajeVeintes3"
+      },
+      {
+        "btn": "Inicio",
+        "escena": "inicio"
+      }
+    ]
+  }
+}

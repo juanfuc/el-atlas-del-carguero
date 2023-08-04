@@ -1,0 +1,647 @@
+{
+    "inicio": {
+        "imagen": "assets/imgs-2/6.jpg",
+        "meta": 6,
+        "options": [
+          { "btn": "1. El carguero prehispánico y colonial", "scene": "compareCargueroPre"},
+          { "btn": "2. El carguero entre el atlas pintoresco europeo y la verticalidad americana", "scene": "grecia"},
+          { "btn": "3. El carguero Villanero en una vista andina", "scene": "mapaQuindio"},
+          {"btn": "4. Sobrevivencias. La V lámina de Vues usada como modelo", "scene": "humboldtPack"}
+        ],
+        "areas": [
+          { "x": 907, "y": 660, "w": 316, "h": 474, "btn": "", "tooltip": "", "scene": "villanero" },
+          { "x": 1225, "y": 619, "w": 273, "h": 547, "btn": "", "tooltip": "", "scene": "agave" },
+          { "x": 615, "y": 342, "w": 727, "h": 453, "btn": "", "tooltip": "", "scene": "contorno" },
+          {
+            "x": 587, "y": 656, "w": 319, "h": 125, "btn": "", "tooltip": "", "scene": "palmasVues"}
+        ]
+      },
+      "mapaQuindio": {
+        "viz": {"filter": [[]], "type": "compare", "x":233, "y":234},
+        "opciones":  [ { "btn": "Vista del Paso del Quindío", "scene": "compareVues"}]
+      },     
+       "compareVues": {
+        "viz": {"filter": [[]], "type": "compare", "x":6, "y":235},
+        "opciones":  [ { "btn": "Geografía de las plantas", "scene": "mutisPalma"},{ "btn": "Fisionomía de las montañas", "scene": "contorno"}, {"btn": "Encuentro con Villanero", "scene":"señalando"} ]
+      },
+      "mutisPalma":{
+        "viz": {"filter": [[]], "type": "compare", "x":118, "y":117},
+        "opciones": [{"btn": "Palmas de chonto en el valle del Combeima", "scene":"palmasVues"}]
+      },
+      "tableau":{
+        "viz": {"filter": [[]], "type": "compare", "x":110, "y":111},
+        "opciones": [{"btn": "Palmas en el Tableau Physique", "scene":"palmasTableau"}]        
+      },
+      "palmasTableau": {
+        "viz": {"filter": [[]], "type": "compare", "x":237, "y":238},
+        "opciones": [{"btn": "Perfiles de los Andes de Caldas", "scene":"perfilesCaldas"}]
+      },
+      "perfilesCaldas": {
+        "viz": {"filter": [[]], "type": "compare", "x":115, "y":116},
+        "opciones": [{"btn": "Cartografía vertical", "scene":"vertical"}]
+      },
+      "vertical":{
+        "viz": {"filter": [["modelo", "=", "vertical"]], "type":"pack", "x":"modelo", "y":"autor"},
+        "opciones": [{"btn": "Otros modelos de Cartografía Vertical", "scene":"otrosVertical"}]
+      },
+      "otrosVertical": {
+        "viz": {"filter": [[]], "type": "compare", "x":112, "y":113},
+        "opciones": [{"btn": "Volver a El carguero Villanero en una vista andina", "scene":"mapaQuindio"}, {"btn":"Plantas utiles. El saber del Carguero", "scene":"bijaoAgave"}]
+      },
+      "bijaoAgave":{
+        "imagen": "assets/imgs-2/6.jpg",
+        "meta": 6,
+        "options": [
+          { "btn": "Bijao", "scene": "packBijao"},
+          { "btn": "Agave", "scene": "agave"}
+        ],
+        "areas": [
+          { "x": 907, "y": 660, "w": 316, "h": 474, "btn": "", "tooltip": "", "scene": "villanero" },
+          { "x": 1225, "y": 619, "w": 273, "h": 547, "btn": "", "tooltip": "", "scene": "agave" }
+        ]
+      },
+      "palmasVues": {
+        "imagen": "assets/imgs/243.jpg",
+        "meta": "236",
+        "options": [ { "btn": "Volver a Inicio", "scene": "inicio"},{ "btn": "Tableau Physique", "scene": "tableau"} ]
+      },
+      "compareCopiasVues": {
+        "viz": {"filter": [[]], "type": "compare", "x":7, "y":9},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "compareSaturday"}]
+      },
+      "compareSaturday": {
+        "viz": {"filter": [[]], "type": "compare", "x":20, "y":28},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "expedicion1"}]
+      },
+      "compareCopiasVues1": {
+        "viz": {"filter": [[]], "type": "compare", "x":8, "y":10},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "expedicion1"}]
+      },
+      "villanero": {
+        "imagen": "assets/imgs-2/129.jpg",
+        "meta": 122,
+        "options": [  { "btn": "Ruta principal", "scene": "señalando"} ],
+        "areas": [ { "x": 157, "y": 242, "w": 120, "h": 154, "btn": "", "tooltip": "", "scene": "packBijao" } ]   
+      },
+      "bijao": {
+        "imagen": "assets/imgs/126.jpg",
+        "meta": 119,
+        "text": "The Cargueros act as guides and make it possible to cross the difficult path, not only because of their physical strength, but also because of the knowledge they have of the landscape they inhabit. They know the signs of the terrain, climate, and usefulness of plants. The same Carguero, the one in the image that stares at the viewer and has an empty chair, carries in his hands some bijao leaves that, the story tells us, will later be used to make tents and shelter from the rain. Humboldt draws the bijao leaves in his diary",
+        "options": [ { "btn": "Ruta principal", "scene": "inicio"} ]
+      },
+      "agave": {
+        "imagen": "assets/imgs-2/128.jpg",
+        "meta": 121,
+        "text": "There is a flowering Fique or Agave on the right side of the Plate V of Vues. This plant is used for the elaboration of ropes that tie the Bijao leaves and secure the tents",
+        "options": [ { "btn": "Ruta principal", "scene": "inicio"} ],
+        "areas": [
+          {
+            "x": 113,
+            "y": 332,
+            "w": 151,
+            "h": 164,
+            "btn": "",
+            "tooltip": "",
+            "escena": "packAgave"
+          }
+        ]
+      },
+      "agaveDiario": {
+        "imagen": "assets/imgs/127.jpg",
+        "meta": 120,
+        "text": "In Humboltd's diaries, there are drawings of the tents specifying how to tie them so that they are resistant. In the story, these plants are considered regarding their geographical location in relation to altitude, taxonomically by being categorized into families and species, and by their usefulness by speculating about their industrial applications.",
+        "options": [ { "btn": "Ruta principal", "scene": "inicio"} ]
+      },
+      "humboldtPack": {
+        "viz":{ "filter": [ ["modelo", "=", "humboldt"], ["otros", "=", "false"] ], "type": "pack", "x": "modelo", "y": "periodo"},
+        "title": "Sobrevivencias de la V lámina de Vues", 
+        "text": "",
+        "options": [ { "btn": "<<<", "scene": "inicio"} ]
+      },
+      "compareCargueroPre": {
+        "viz": {"filter": [[]], "type": "compare", "x":97, "y":276},
+        "titulo": "Humboldt y la historia prehispánica y de la colonia temprana",
+        "opciones":  [ { "btn": "<<<", "scene": "inicio"}, { "btn": "Ruta principal", "scene": "cargueroPre"} ]
+      },
+      "cargueroPre": {
+        "imagen": "assets/imgs/104.jpg",
+        "titulo": "El carguero prehispánico y colonial",
+        "opciones":  [ { "btn": "Mesoamérica", "scene": "mexico"}, {"btn": ">>>", "scene": "compareCargueroMendoza"} ]
+      },
+      "compareCargueroMendoza": {
+        "viz": {"filter": [[]], "type": "compare", "x":281, "y":282},
+        "titulo": "El oficio se transmite hereditariamente",
+        "opciones":  [ { "btn": "<<<", "scene": "cargueroPre"}, {"btn": "Amazonas/Andes", "scene": "mexico"}  ]
+      },
+      "mexico": {
+        "viz": {"filter": [["camino", "=", "Chiapas"]], "type": "pack", "x":"camino", "y":"camino"},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "compareMexico"} ]
+      },
+      "compareMexico": {
+        "viz": {"filter": [[]], "type": "compare", "x":17, "y":36},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "amazonia"} ]
+      },
+      "amazonia": {
+        "viz": {"filter": [["region", "=", "Amazonía"], ["direccionCargado", "=", "adelante"]], "type": "pack", "x":"region", "y":"region"},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroDocumento"}]
+      },
+      "cargueroDocumento": {
+        "viz": {"filter": [[]], "type": "compare", "x":4, "y":5},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "expedicion"}]
+      },
+      "expedicion": {
+        "viz": {"filter": [[]], "type": "compare", "x":100, "y":101},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "expedicion1"}]
+      },
+      "expedicion1": {
+        "viz": {"filter": [[]], "type": "compare", "x":98, "y":99},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "malaspina"}]
+      },
+      "malaspina": {
+        "viz": {"filter": [[]], "type": "compare", "x":103, "y":104},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "cuadro"}]
+      },
+      "cuadro": {
+        "imagen": "assets/imgs-2/102.jpg",
+        "opciones":  [ { "btn": "Ruta principal", "scene": "cuadro1"}]
+      },
+      "cuadro1": {
+        "viz": {"filter": [[]], "type": "compare", "x":107, "y":106},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroMalaspina"}]
+      },
+      "cargueroMalaspina": {
+        "imagen": "assets/imgs/3.jpg",
+        "meta": 3,
+        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroCuadro"}]
+      },
+      "cargueroCuadro": {
+        "imagen": "assets/imgs/2.jpg",
+        "meta": 2,
+        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroMestizaje"}, { "btn": "Volver al Cuadro del Perú", "scene": "cuadro"}]
+      },
+      "cargueroMestizaje": {
+        "imagen": "assets/imgs/1.jpg",
+        "meta": 0,
+        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroFondo"}]
+      },
+      "cargueroFondo": {
+        "viz": {"filter": [[]], "type": "compare", "x":108, "y":109},
+        "opciones":  [ { "btn": "Ruta principal", "scene": "scatterPeriodoFigura"}]
+      },
+      "scatterPeriodoFigura": {
+        "viz": {"filter": [ ["fecha", "<", 1900], ["otros", "=", "false"], ["periodo", "=", "1750 - 1810"] ], "type": "pack", "x": "periodo", "y": "figura/fondo"},
+        "title": "Figure/Background vs. Period",
+        "text": "This panel shows that there are more images in the 'background' (fondo) and 'balance' (equilibrio) categories in the period between 1770 and 1810 than in other periods, that is, there is a predominance of representations of the Carguero as a part of the landscape, rather than as the center of attention. Images from the late colonial period (1770-1810) participated in a transformation in visual epistemology characterized by presenting different human classifications, understood as castes or nations, in their immediate geographical contexts, including the animal and botanical varieties peculiar to them (Bleichmar, 2012).",
+        "options": [
+          { "btn": "inicio", "scene": "inicio"}
+        ]
+      },
+      "montajeContorno":{
+        "imagen": "assets/imgs/291.jpg",
+        "meta": "284",
+        "areas": [
+          {
+            "x": 444,
+            "y": 860,
+            "w": 623,
+            "h": 497,
+            "btn": "",
+            "tooltip": "",
+            "scene": "picoCayambe"
+          },
+          {
+            "x": 1212,
+            "y": 863,
+            "w": 786,
+            "h": 571,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetosTolima"
+          },
+          {
+            "x": 1968,
+            "y": 873,
+            "w": 615,
+            "h": 508,
+            "btn": "",
+            "tooltip": "",
+            "scene": "picoCotopaxi"
+          }
+        ]
+      },
+      "contorno": {
+        "viz": {"filter":[["modelo", "=", "contorno"]], "type": "pack", "x": "modelo", "y": "tecnica"},
+        "text": "",
+        "options": [ { "btn": "<<<", "scene": "inicio" }, {"btn": "Cayambe", "scene": "cayambe"}, {"btn": "Cotopaxi", "scene": "cotopaxi"}, {"btn": "Pichincha", "scene": "pichincha"}, {"btn": "Tolima", "scene": "bocetosTolima"} ]
+      },
+      "señalando": {
+        "viz": {"filter":[["modelo", "=", "señalando"]], "type": "pack", "x": "modelo", "y": "modelo"},
+        "text": "",
+        "options": [ { "btn": "<<<", "scene": "inicio" }, { "btn": "Atlas", "scene": "figurasContornos" } ]
+      },
+      "atlas": {
+        "viz": {"filter": [["modelo", "=", "atlas"]], "type": "pack", "x": "modelo", "y": "periodo"},
+        "options":  [ { "btn": "<<<", "scene": "inicio" } ]
+      },
+      "packAgave": {
+        "viz": {"filter": [["modelo", "=", "agave"]], "type": "pack", "x": "modelo", "y": "periodo"},
+        "options":  [ { "btn": "<<<", "scene": "inicio" }, { "btn": "Comparación Agave de Humboldt", "scene": "compareAgave" }  ]
+
+      },
+      "compareAgave": {
+        "viz": {"filter": [[]], "type": "compare", "x": 121, "y": 120},
+        "title": "Comparación Agave florecido / Agave convertido en cuerdas para armar una tienda",
+        "texto":"En esta gráfica se puede observar un contraste entre la representación que Humboldt hace en su diario y en la lámina V de Vues. Esto muestra diferentes modos de representar ejemplares botánicos más allá de la lógica clasificación de Linneo. En ste caso en la lámima se puede ver un Agave florecido en su contexto natural específico. En el segundo caso, el Agave se ha transformado en una cuerda que permite amarrar las hojas de bijao para resguardarse de la lluvia.",
+        "options":  [ { "btn": "<<<", "scene": "packAgave" } ]
+      },
+      "packBijao": {
+        "viz": {"filter": [["modelo", "=", "bijao"]], "type": "pack", "x": "modelo", "y": "modelo"},
+        "options":  [ { "btn": "Volver al inicio", "scene": "inicio" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}, {"btn": "Comparación representaciones del Bijao", "scene": "compareBijao1"} ]
+      },
+      "compareBijao1":{
+        "viz": {"filter": [[]], "type": "compare", "x": 239, "y": 122},
+        "options":  [ { "btn": "Volver al inicio", "scene": "inicio" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}, {"btn": "Comparación representaciones del Bijao", "scene": "compareBijao2"} ]
+      },
+      "compareBijao2":{
+        "viz": {"filter": [[]], "type": "compare", "x": 119, "y": 240},
+        "options":  [ { "btn": "Volver al inicio", "scene": "inicio" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}]    
+      },
+      "cayambe": {
+        "imagen":"assets/imgs/251.jpg",
+        "meta": "244",
+        "areas": [
+          {
+            "x": 1513,
+            "y": 696,
+            "w": 817,
+            "h": 392,
+            "btn": "",
+            "tooltip": "",
+            "scene": "picoCayambe"
+          },
+          {
+            "x": 1467,
+            "y": 1547,
+            "w": 292,
+            "h": 236,
+            "btn": "",
+            "tooltip": "",
+            "scene": "figurasCayambe"
+          }
+        ],
+        "opciones": [ { "btn": "<<<", "scene": "contorno" } ]
+      },
+      "picoCayambe":{
+        "imagen":"assets/imgs/252.jpg",
+        "meta": "245",
+        "opciones": [ { "btn": "<<<", "scene": "cayambe" } ]
+
+      },
+      "figurasCayambe":{
+        "imagen":"assets/imgs/253.jpg",
+        "meta": "246",
+        "opciones": [ { "btn": "<<<", "scene": "cayambe" } ]
+      },
+      "cotopaxi": {
+        "imagen": "assets/imgs/254.jpg",
+        "meta": "248",
+        "opciones": [ { "btn": "<<<", "scene": "contorno" } ],
+        "areas": [
+          {
+            "x": 2851,
+            "y": 2093,
+            "w": 2102,
+            "h": 2221,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetosCotopaxi"
+          }
+        ]
+      },
+      "bocetosCotopaxi":{
+        "imagen":"assets/imgs/284.jpg",
+        "meta": "277",
+        "opciones": [{"btn": "<<<", "scene": "cotopaxi" }],
+        "areas": [
+          {
+            "x": 834,
+            "y": 370,
+            "w": 704,
+            "h": 378,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetoCotopaxiVues"
+          },
+          {
+            "x": 1670,
+            "y": 372,
+            "w": 701,
+            "h": 448,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetoDiario1"
+          },
+          {
+            "x": 843,
+            "y": 886,
+            "w": 678,
+            "h": 452,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetoDiario2"
+          },
+          {
+            "x": 1550,
+            "y": 899,
+            "w": 586,
+            "h": 434,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetoDiario3"
+          },
+          {
+            "x": 783,
+            "y": 1435,
+            "w": 715,
+            "h": 497,
+            "btn": "",
+            "tooltip": "",
+            "scene": "tableauAcuarela"
+          },
+          {
+            "x": 1694,
+            "y": 1427,
+            "w": 882,
+            "h": 511,
+            "btn": "",
+            "tooltip": "",
+            "scene": "tableauGrabado"
+          }
+        ]
+      },
+      "bocetoCotopaxiVues": {
+        "imagen": "assets/imgs/255.jpg",
+        "meta": "248",
+        "opciones": [{"btn": "<<<", "scene": "bocetosCotopaxi" }]
+      },
+      "bocetoDiario1": {
+        "imagen": "assets/imgs/256.jpg",
+        "meta": "249",
+        "opciones": [{"btn": "<<<", "scene": "bocetosCotopaxi" }]
+      },
+      "bocetoDiario2": {
+        "imagen": "assets/imgs/257.jpg",
+        "meta": "250",
+        "opciones": [{"btn": "<<<", "scene": "bocetosCotopaxi" }]
+      },
+      "bocetoDiario3": {
+        "imagen": "assets/imgs/258.jpg",
+        "meta": "251",
+        "opciones": [{"btn": "<<<", "scene": "bocetosCotopaxi" }]
+      },
+      "cotopaxiAcuarela": {
+        "imagen": "assets/imgs/259.jpg",
+        "meta": "251",
+        "opciones": [{"btn": "<<<", "scene": "bocetosCotopaxi" }]
+      },
+      "cotopaxiGrabado": {
+        "imagen": "assets/imgs/260.jpg",
+        "meta": "251",
+        "opciones": [{"btn": "<<<", "scene": "bocetosCotopaxi" }]
+      },
+      "tableauAcuarela":{
+      "imagen":"assets/imgs/117.jpg",
+      "meta": "110",
+      "opciones": [{"btn": "Volver a Bocetos del Cotopaxi", "scene": "bocetosCotopaxi" }],
+      "areas": [
+        {
+          "x": 292,
+          "y": 127,
+          "w": 46,
+          "h": 52,
+          "btn": "",
+          "tooltip": "",
+          "scene": "cotopaxiAcuarela"
+        },
+        {
+          "x": 189,
+          "y": 263,
+          "w": 101,
+          "h": 45,
+          "btn": "",
+          "tooltip": "",
+          "scene": "detallePalmaAcuarela"
+        }
+      ]
+      },
+      "tableauGrabado": {
+        "imagen":"assets/imgs/118.jpg",
+        "meta": "111",
+        "opciones": [{"btn": "Volver a Bocetos del Cotopaxi", "scene": "bocetosCotopaxi" }],
+        "areas": [
+          {
+            "x": 632,
+            "y": 317,
+            "w": 98,
+            "h": 120,
+            "btn": "",
+            "tooltip": "",
+            "scene": "cotopaxiGrabado"
+          },
+          {
+            "x": 720,
+            "y": 447,
+            "w": 141,
+            "h": 125,
+            "btn": "",
+            "tooltip": "",
+            "scene": "detallePalmaGrabado"
+          }
+        ]
+      },
+      "detallePalmaAcuarela":{
+        "imagen": "assets/imgs/244.jpg",
+        "meta": "237"
+      },
+      "detallePalmagrabado":{
+        "imagen": "assets/imgs/245.jpg",
+        "meta": "238"
+      },
+      "grecia": {
+        "imagen":"assets/imgs/230.jpg",
+        "meta":"223",
+        "options": [{"btn": "<<<", "scene": "inicio"}, {"btn": "Atlas", "scene":"atlas"}],
+        "areas": [
+          {
+            "x": 1895,
+            "y": 2339,
+            "w": 888,
+            "h": 539,
+            "btn": "",
+            "tooltip": "",
+            "scene": "figurasCholula"
+          },
+          {
+            "x": 2850,
+            "y": 1419,
+            "w": 3561,
+            "h": 682,
+            "btn": "",
+            "tooltip": "",
+            "scene": "montañasCholula"
+          },
+          {
+            "x": 3652,
+            "y": 2161,
+            "w": 1975,
+            "h": 642,
+            "btn": "",
+            "tooltip": "",
+            "scene": "edificioAnimalesPlantasCholula"
+          }
+        ]
+      },
+      "figurasCholula": {
+        "viz": {"filter": [[]], "type": "compare", "x": 224, "y": 227},
+        "opciones":   [{"btn": "<<<", "scene": "grecia" }]
+      },
+      "montañasCholula": {
+        "imagen":"assets/imgs/236.jpg",
+        "opciones":   [{"btn": "<<<", "scene": "grecia" }]
+      },
+      "edificioAnimalesPlantasCholula": {
+        "imagen":"assets/imgs/237.jpg",
+        "opciones":   [{"btn": "<<<", "scene": "grecia" }]
+      },
+      "bocetosTolima":{
+        "imagen":"assets/imgs/292.jpg",
+        "opciones":   [{"btn": "<<<", "scene": "contorno" }],
+        "areas": [
+          {
+            "x": 430,
+            "y": 441,
+            "w": 608,
+            "h": 474,
+            "btn": "",
+            "tooltip": "",
+            "scene": "medidasTolima"
+          },
+          {
+            "x": 1182,
+            "y": 407,
+            "w": 727,
+            "h": 556,
+            "btn": "",
+            "tooltip": "",
+            "scene": "montajeContorno"
+          },
+          {
+            "x": 1967,
+            "y": 411,
+            "w": 597,
+            "h": 497,
+            "btn": "",
+            "tooltip": "",
+            "scene": "medidasTolima"
+          },
+          {
+            "x": 835,
+            "y": 993,
+            "w": 745,
+            "h": 415,
+            "btn": "",
+            "tooltip": "",
+            "scene": "perfilesTolima"
+          },
+          {
+            "x": 1633,
+            "y": 997,
+            "w": 537,
+            "h": 400,
+            "btn": "",
+            "tooltip": "",
+            "scene": "perfilesTolima"
+          },
+          {
+            "x": 806,
+            "y": 1502,
+            "w": 612,
+            "h": 378,
+            "btn": "",
+            "tooltip": "",
+            "scene": "cenitalQuindio"
+          },
+          {
+            "x": 1474,
+            "y": 1476,
+            "w": 478,
+            "h": 408,
+            "btn": "",
+            "tooltip": "",
+            "name": "cenitalQuindio"
+          }
+        ]
+      },
+      "medidasTolima":{
+          "viz": {"filter": [[]], "type": "compare", "x": 258, "y": 259},
+          "opciones": [{"btn":"<<<", "scene":"bocetosTolima"}]
+      },
+      "perfilesTolima":{
+        "viz": {"filter": [[]], "type": "compare", "x": 260, "y": 261},
+        "opciones": [{"btn":"<<<", "scene":"bocetosTolima"}]
+      },
+      "cenitalQuindio":{
+        "viz": {"filter": [[]], "type": "compare", "x": 262, "y": 263},
+        "opciones": [{"btn":"<<<", "scene":"bocetosTolima"}]
+      },
+     "pichincha":{
+      "imagen":"assets/imgs/261.jpg",
+        "opciones":   [{"btn": "<<<", "scene": "contorno" }],
+        "areas": [
+          {
+            "x": 2859,
+            "y": 2970,
+            "w": 1248,
+            "h": 771,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetosPichincha"
+          },
+          {
+            "x": 2644,
+            "y": 1654,
+            "w": 1121,
+            "h": 334,
+            "btn": "",
+            "tooltip": "",
+            "scene": "bocetosPichincha"
+          },
+          {
+            "x": 2990,
+            "y": 2413,
+            "w": 127,
+            "h": 87,
+            "btn": "",
+            "tooltip": "",
+            "scene": "figurasPichincha"
+          }
+        ]
+      },
+      "bocetosPichincha": {
+        "viz": {"filter": [[]], "type": "compare", "x": 255, "y": 256},
+        "opciones": [{"btn":"<<<", "scene":"pichincha"}]
+      },
+      "figurasPichincha": {
+        "imagen": "assets/imgs/293.jpg",
+        "opciones": [{"btn":"<<<", "scene":"pichincha"}]
+      },
+      "figurasContornos": {
+        "viz": {"filter": [[]], "type": "compare", "x": 246, "y": 286},
+        "opciones": [{"btn":"Fuguras Humanas V lámina de Vues", "scene":"figurasCargueros"}, {"btn":"<<<", "scene":"señalando"}]
+      }, 
+      "figurasCargueros":{
+        "imagen":"assets/imgs/283.jpg",
+        "opciones": [{"btn":"<<<", "scene":"figurasContornos"}]
+      }
+
+}
