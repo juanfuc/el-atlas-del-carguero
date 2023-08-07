@@ -2,9 +2,9 @@
     "inicio": {
         "imagen": "assets/imgs-2/6.jpg",
         "meta": 6,
-        "options": [
+                "options": [
           { "btn": "1. El carguero prehispánico y colonial", "scene": "compareCargueroPre"},
-          { "btn": "2. El carguero entre el atlas pintoresco europeo y la verticalidad americana", "scene": "grecia"},
+          { "btn": "2. El carguero entre el atlas pintoresco europeo y la verticalidad americana", "scene": "comparePintorescoVertical"},
           { "btn": "3. El carguero Villanero en una vista andina", "scene": "mapaQuindio"},
           {"btn": "4. Sobrevivencias. La V lámina de Vues usada como modelo", "scene": "humboldtPack"}
         ],
@@ -12,13 +12,13 @@
           { "x": 907, "y": 660, "w": 316, "h": 474, "btn": "", "tooltip": "", "scene": "villanero" },
           { "x": 1225, "y": 619, "w": 273, "h": 547, "btn": "", "tooltip": "", "scene": "agave" },
           { "x": 615, "y": 342, "w": 727, "h": 453, "btn": "", "tooltip": "", "scene": "contorno" },
-          {
-            "x": 587, "y": 656, "w": 319, "h": 125, "btn": "", "tooltip": "", "scene": "palmasVues"}
-        ]
+          { "x": 587, "y": 656, "w": 319, "h": 125, "btn": "", "tooltip": "", "scene": "palmasVues"}
+        ], 
+        "texto": "Esta narrativa digital ofrece una interpretación del carguero que aparece en la lámina V de 'Vues des Cordillères' (Vues), el Atlas Pintoresco publicado por Alexander von Humboldt en 1810. El usuario tiene la posibilidad de explorar la imagen mediante áreas cliqueables o navegar a través de las diversas secciones ubicadas en la parte inferior."
       },
       "mapaQuindio": {
         "viz": {"filter": [[]], "type": "compare", "x":233, "y":234},
-        "opciones":  [ { "btn": "Vista del Paso del Quindío", "scene": "compareVues"}]
+        "opciones":  [ { "btn": "<<<", "scene": "inicio"},{ "btn": "Vista del Paso del Quindío", "scene": "compareVues"}]
       },     
        "compareVues": {
         "viz": {"filter": [[]], "type": "compare", "x":6, "y":235},
@@ -121,29 +121,43 @@
       "compareCargueroPre": {
         "viz": {"filter": [[]], "type": "compare", "x":97, "y":276},
         "titulo": "Humboldt y la historia prehispánica y de la colonia temprana",
-        "opciones":  [ { "btn": "<<<", "scene": "inicio"}, { "btn": "Ruta principal", "scene": "cargueroPre"} ]
+        "opciones":  [ { "btn": "<<<", "scene": "inicio"}, { "btn": "Carguero mesoamericano", "scene": "cargueroPre"},  { "btn": "Carguero Amazonas/Andes", "scene": "amazonia"} ],
+        "texto": "La descripción que Humboldt lleva a cabo del encuentro con el carguero es una manifestación de conciencia histórica. El viajero investigó en su viaje a Ciudad de México sobre la existencia de colecciones de “pinturas históricas”. De la misma manera lo hizo en su estadía en Roma en 1805 <a href='https://www.cairn.info/revue-etudes-germaniques-2011-1-page-21.htm' target='_blank'>(Bourguet)</a>. En los estudios sobre la historia de las civilizaciones prehispánicas en Vues, no se mencionan las prácticas prehispánicas de los cargueros. Por ejemplo, el Códice Mendoza que tiene referencias a los cargueros prehispánicos, pero Humboldt en su análisis no las menciona. Se centra en la procedencia, difusión, estructura e interpretaciones de este códice <a href='https://archive.org/details/vuesdescordille1humb/page/78/mode/2up?view=theater' target='blank'>(Humboldt, Vues, I, 78)</a>. La única referencia que Humboldt hace sobre el origen histórico de la práctica de los cargueros se encuentra en su diario, donde afirma que existía desde el periodo prehispánico. En ese tiempo, personas prominentes eran transportadas por varios individuos en una especie de litera o silla portátil. Además, menciona que el sistema de cargar a otros seres humanos en sillas fue un 'descubrimiento' español, resultado de la comodidad y la necesidad en un país donde montar a caballo resultaba imposible <a href='https://descubridor.banrepcultural.org/discovery/fulldisplay?docid=alma991005445879707486&context=L&vid=57BDLRDC_INST:57BDLRDC_INST&lang=es&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=ALL&query=any,contains,diarios%20humboldt&offset=0' target='_blank'>(Humboldt, Diarios, 113a)</a>.<br><br>La conciencia histórica de Humboldt en relación con los cargueros no se limita a proporcionar breves indicaciones sobre su origen prehispánico y su posterior transformación colonial, sino que también implica la forma en que los sitúa en un presente al que ya no pertenecen o no deberían pertenecer. En general, se podría decir que Humboldt considera la práctica de los cargueros como anacrónica, como un vestigio de tiempos prehispánicos que, debido a los avances conceptuales y tecnológicos de su época, debería desaparecer para redirigir las energías de estas personas hacia actividades más beneficiosas para la felicidad colectiva."
       },
       "cargueroPre": {
         "imagen": "assets/imgs/104.jpg",
-        "titulo": "El carguero prehispánico y colonial",
-        "opciones":  [ { "btn": "Mesoamérica", "scene": "mexico"}, {"btn": ">>>", "scene": "compareCargueroMendoza"} ]
+        "meta": 97,
+        "titulo": "El carguero mesoamericano",
+        "opciones":  [ { "btn": "<<<", "scene": "compareCargueroPre"}, {"btn": "Ruta principal", "scene": "cargueroFlorentino"} ]
+      },
+      "cargueroFlorentino": {
+        "imagen":"assets/imgs/287.jpg",
+        "meta": 280,
+        "opciones":  [ { "btn": "<<<", "scene": "cargueroPre"}, {"btn": "Ruta principal", "scene": "compareCargueroMendoza"} ]
       },
       "compareCargueroMendoza": {
         "viz": {"filter": [[]], "type": "compare", "x":281, "y":282},
         "titulo": "El oficio se transmite hereditariamente",
-        "opciones":  [ { "btn": "<<<", "scene": "cargueroPre"}, {"btn": "Amazonas/Andes", "scene": "mexico"}  ]
+        "opciones":  [ { "btn": "<<<", "scene": "cargueroFlorentino"}, {"btn": "Ruta principal", "scene": "cargueroKingsborough"}  ]
+      },
+      "cargueroKingsborough": {
+        "imagen": "assets/imgs/286.jpg",
+        "meta": 279,
+        "opciones":  [ { "btn": "<<<", "scene": "compareCargueroMendoza"}, {"btn": "Sobrevivencia del Carguero mexicano en el siglo XIX", "scene": "mexico"}  ]
       },
       "mexico": {
         "viz": {"filter": [["camino", "=", "Chiapas"]], "type": "pack", "x":"camino", "y":"camino"},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "compareMexico"} ]
+        "titulo": "Sobrevivencia del Carguero mexicano en el siglo XIX",
+        "opciones":  [ { "btn": "<<<", "scene": "cargueroKingsborough"}, { "btn": "Ruta principal", "scene": "compareMexico"} ]
       },
       "compareMexico": {
         "viz": {"filter": [[]], "type": "compare", "x":17, "y":36},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "amazonia"} ]
+        "opciones":  [  { "btn": "<<<", "scene": "mexico"}, { "btn": "Amazonas/Andes", "scene": "amazonia"} ]
       },
       "amazonia": {
         "viz": {"filter": [["region", "=", "Amazonía"], ["direccionCargado", "=", "adelante"]], "type": "pack", "x":"region", "y":"region"},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroDocumento"}]
+        "titulo": "Carguero de la frontera fluida Amazonas-Andes",
+        "opciones":  [  { "btn": "<<<", "scene": "compareMexico"}, { "btn": "Inicio", "scene": "inicio"}]
       },
       "cargueroDocumento": {
         "viz": {"filter": [[]], "type": "compare", "x":4, "y":5},
@@ -237,7 +251,8 @@
       "señalando": {
         "viz": {"filter":[["modelo", "=", "señalando"]], "type": "pack", "x": "modelo", "y": "modelo"},
         "text": "",
-        "options": [ { "btn": "<<<", "scene": "inicio" }, { "btn": "Atlas", "scene": "figurasContornos" } ]
+        "titulo": "Figuras humanas en las láminas de Vues",
+        "options": [ { "btn": "<<<", "scene": "inicio" }, { "btn": "Figuras humanas en medio de montañas", "scene": "figurasContornos" } ]
       },
       "atlas": {
         "viz": {"filter": [["modelo", "=", "atlas"]], "type": "pack", "x": "modelo", "y": "periodo"},
@@ -467,34 +482,40 @@
         "imagen": "assets/imgs/245.jpg",
         "meta": "238"
       },
+      "comparePintorescoVertical": {
+        "viz": {"filter": [[]], "type": "compare", "x": 122, "y": 0},
+        "titulo": "El carguero entre el atlas pintoresco europeo y la verticalidad americana",
+        "opciones":   [{"btn": "Carguero en la verticalidad americana", "scene": "cargueroDocumento" }, {"btn": "Carguero en un Atlas Pintoresco", "scene": "grecia" } ]
+
+      },
       "grecia": {
         "imagen":"assets/imgs/230.jpg",
         "meta":"223",
-        "options": [{"btn": "<<<", "scene": "inicio"}, {"btn": "Atlas", "scene":"atlas"}],
+        "options": [{"btn": "<<<", "scene": "inicio"}, {"btn": "Figuras clasicas", "scene":"figurasCholula"}, {"btn": "Montañas", "scene":"montañasCholula"}, {"btn": "Atlas", "scene":"atlas"}],
         "areas": [
           {
-            "x": 1895,
-            "y": 2339,
-            "w": 888,
-            "h": 539,
+            "x": 812,
+            "y": 971,
+            "w": 358,
+            "h": 212,
             "btn": "",
             "tooltip": "",
             "scene": "figurasCholula"
           },
           {
-            "x": 2850,
-            "y": 1419,
-            "w": 3561,
-            "h": 682,
+            "x": 1194,
+            "y": 572,
+            "w": 1495,
+            "h": 205,
             "btn": "",
             "tooltip": "",
             "scene": "montañasCholula"
           },
           {
-            "x": 3652,
-            "y": 2161,
-            "w": 1975,
-            "h": 642,
+            "x": 1506,
+            "y": 949,
+            "w": 878,
+            "h": 295,
             "btn": "",
             "tooltip": "",
             "scene": "edificioAnimalesPlantasCholula"
@@ -637,11 +658,19 @@
       },
       "figurasContornos": {
         "viz": {"filter": [[]], "type": "compare", "x": 246, "y": 286},
-        "opciones": [{"btn":"Fuguras Humanas V lámina de Vues", "scene":"figurasCargueros"}, {"btn":"<<<", "scene":"señalando"}]
+        "titulo":"Figuras humanas en medio de montañas",
+        "opciones": [{"btn":"<<<", "scene":"señalando"}, {"btn":"Figuras Humanas V lámina de Vues", "scene":"figurasCargueros"}]
       }, 
       "figurasCargueros":{
         "imagen":"assets/imgs/283.jpg",
-        "opciones": [{"btn":"<<<", "scene":"figurasContornos"}]
+        "titulo":"Figuras humanas en la V lámina de Vues",
+        "opciones": [{"btn":"<<<", "scene":"figurasContornos"}, {"btn":"Amo/Esclavo", "scene": "amoEsclavo"}]
+      },
+      "amoEsclavo": {
+        "viz": {"filter": [[]], "type": "compare", "x": 276, "y": 288},
+        "titulo": "Daléctica del Amo y esclavo. Dialéctica del carguero y cargado",
+        "opciones": [{"btn":"<<<", "scene":"inicio"}]
+
       }
 
 }
