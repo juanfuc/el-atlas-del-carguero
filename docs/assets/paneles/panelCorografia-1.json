@@ -1,22 +1,35 @@
 {
     "inicio": {
       "viz": {"filter": [[]], "type": "compare", "x": 193, "y": 194},
-      "titulo": "Funciones de las lámimas",
-      "opciones": [{"btn": "Antioquia", "scene": "cargueroManizales"}, {"btn": "Chocó", "scene": "cargueroChoco"}]
+      "titulo": "Funciones de las lámimas de la Comisión corográfica",
+      "texto": "En esta narración interactiva se cuenta una historia de los dos cargueros que se encuentran en las láminas de la Comisión corográfica. La Comisión, comandada por Agustín Codazzi, tuvo a su cargo la realización de una 'carta general del país, mapas corográficos de las provincias que lo conformaban, describir la geografía física y política de todo el territorio y elaborar itinerarios militares'. La expedición contaba con un pintor que se encargaba de “dibujar a la aguada [...] los monumentos que se encuentran i se [les] determinen, los paisajes notables, curiosidades naturales i vistas i cortes geológicos que [les] pidan los comisionados”. <a href='https://asocolhistoria.org/wp-content/uploads/2021/10/18.HistoriadelArte.pdf' target='_blank'>(Contrato con Carmelo Fernández, citado en Rodríguez, 2015)</a>. Estas láminas fueron hechas para “agradar” e “instruir” <a href='https://babel.banrepcultural.org/digital/collection/p17054coll26/id/15840/rec/323' target='_blank'>(Codazzi, 1857)</a>, es decir, para atraer inmigrantes y mostrar las vistas pintorescas del país, pero también para ayudar en la investigación como una forma de conocimiento visual. Por ejemplo, en la libreta de apuntes de Manuel Ancízar pueden encontrarse algunos bocetos que muestran indicaciones hechas por el escritor para que fueran seguidos por el pintor <a href='https://www.humanas.unal.edu.co/bvc/exhibits/show/manuel_ancizar/nuestros_investigadores_resalt/peregrinacion_de_alpha/librillo_de_divulgacion' target='_blank'>(Ancízar, 2015)</a>. En contraste puede verse el resultado final de la lámina en donde se ve cómo el pintor siguió las indicaciones hechas por Ancízar.",
+      "opciones": [{"btn": "Cargueros de la Comisión", "scene": "carguerosComision"}]
+    },
+    "carguerosComision":{
+       "viz": {"filter": [[]], "type": "compare", "x": 29, "y": 30},
+       "titulo": "Cargueros de la Comisión corográfica",
+       "texto": "El argumento central de este relato es que las imágenes de la Comisión buscan transmitir información sobre cuestiones específicas relacionadas con los lugares visitados. Esta información abarca tanto aspectos físicos como simbólicos. Específicamente, las imágenes de los cargueros tienen la intención de destacar las deficientes vías de comunicación en estos lugares. Sin embargo, esta representación también está ligada a la idea de capturar un cierto 'carácter nacional', que busca encontrar lo general (la república) en lo particular (las provincias). En este contexto, las imágenes de los cargueros ilustran las dificultades que surgen al intentar establecer conexiones entre el todo y sus partes. Estas dificultades se observan tanto desde una perspectiva física como desde un enfoque político y simbólico. Tomando el caso de Antioquia como ejemplo, la relación entre la parte y el todo se relaciona con la integración de las recién creadas provincias que previamente integraban Antioquia en el espacio republicano (Antioquia, Medellín, Rionegro). Estas provincias se presentan con poblaciones racialmente homogéneas y con un potencial civilizador. En contraste, en el caso del Chocó, la integración se logra a través del tutelaje, la anexión o la colonización por parte de las provincias andinas. Estas diferencias notables entre las regiones de la Nueva Granada se reflejan en las características distintivas de los cargueros que les son propios. El marcado contraste entre estos dos tipos de cargueros, como señaló Appelbaum, encapsula las expectativas de la Comisión hacia los habitantes de las regiones montañosas de los Andes en comparación con aquellos de las zonas costeras del Pacífico. Los primeros se describen como 'un tanto toscos pero generalmente laboriosos, a la espera de mejores instituciones republicanas'. En contraste, los segundos son catalogados como 'negros' y considerados merecedores de medidas coercitivas <a href='https://descubridor.banrepcultural.org/permalink/57BDLRDC_INST/qk5q4l/alma991016985987107486' target='_blank'>(Appelbaum, 2017: 97-98)</a>.",
+      "opciones": [{"btn": "<<<", "scene":"inicio"}, {"btn": "Antioquia", "scene": "cargueroManizales"}, {"btn": "Chocó", "scene": "cargueroChoco"}]
     },
     "cargueroManizales":{
       "imagen":"assets/imgs/30.jpg",
+      "titulo": "Un carguero antioqueño. Manisales, provincia de Córdova",
+      "texto":"La ilustración de Henry Price representa a cuatro individuos en la cúspide de una montaña elevada. Todos presentan rasgos caucásicos. Entre ellos, dos son mujeres caracterizadas por sus largas cabelleras y pañoletas en la cabeza. Una de ellas, vestida con un largo atuendo azul, encara directamente al espectador con los brazos cruzados; la otra, ataviada en un vestido rosado, se muestra de perfil. Los otros dos personajes son un carguero y un cargado, quienes han alcanzado la cima tras un arduo ascenso. Comparten un atuendo similar que comprende sombreros, ponchos y pantalones azules. La única discrepancia reside en que el carguero se encuentra descalzo, mientras que el cargado luce zapatos. El carguero, con barba, asume una postura de esfuerzo inclinándose hacia adelante, mientras que el cargado dirige su mirada hacia atrás, manteniendo su rostro oculto. La representación visual sugiere que el carguero es alguien que emprende grandes esfuerzos para transportar a los demás por senderos complicados, brindándoles la oportunidad de apreciar una panorámica grandiosa. La cima de la montaña es estrecha, adornada con escasas ramas y vegetación. En el trasfondo, se vislumbran montañas y una cima cubierta de nieve -posiblemente el nevado del Ruiz-, libre de signos de civilización. A pesar de esto, el enfoque de la imagen recae en los personajes mismos, más que en la vista panorámica que los rodea. <br><br>  En las “Jeografías provinciales” que se publicaban en la Gaceta Oficial había un aparte que se titulaba 'Aspecto del pais'. Appelbaum <a href='https://descubridor.banrepcultural.org/permalink/57BDLRDC_INST/qk5q4l/alma991016985987107486' target='_blank'>(2017: 45)</a> y Duqe Muñoz <a href='https://descubridor.banrepcultural.org/permalink/57BDLRDC_INST/qk5q4l/alma991007266549707486' target='_blank'>(2020: 185-187)</a> ven en estos apartes la influencia de los cuadros de la naturaleza de Humboldt. En el 'Aspecto de Pais' de la provincia de Córdova, Codazzi refiere que en medio de estas difíciles condiciones topográficas “ha empezado a descuajar la naciente población de Manizales”.  Solo hasta “hace pocos años que esa parte de la Provincia ha vuelto a poblarse”.  Este es justamente el lugar al que refiere la lámina Manisales, Provincia de Córdova, en donde aparece el carguero. La lámina no muestra señales de poblamiento, más allá de los sujetos que se observan en la cima de la montaña.   “Lo único que en esos lugares interrumpe la atención para el viajero” es “una que otra vivienda de la raza blanca, vigorosa y sana, que se ocupa en desmontar esos terrenos para sembrarlos después de maíz, i convertirlos al fin en potreros para los ganados” <a href='https://babel.hathitrust.org/cgi/pt?id=mdp.35112103696557&view=1up&seq=106' target='_blank'>(Codazzi, 1854)</a>.  Los personajes de la imagen son, entonces,  pobladores de “raza blanca vigorosa” que transforman el paisaje y dejan signos que captan la atención de los viajeros, como casas, cultivos y potreros con ganado. ",
       "meta": "29",
-      "opciones": [{"btn": "Vista del nevado del Ruiz", "scene": "vistaRuiz"}]
+      "opciones": [{"btn": "<<<", "scene":"carguerosComision"},{"btn": "Vista del nevado del Ruiz", "scene": "vistaRuiz"}]
     },
     "vistaRuiz": {
       "viz": {"filter": [[]], "type": "compare", "x": 195, "y": 196},
-      "opciones": [{"btn": "Mapa", "scene": "mapaCordova"}]
+      "titulo": "Laminas de la Comisión corográfica con vista hacia el nevado del Ruiz y la mesa de Herveo. Complmentan la información del 'Aspecto del País' de la 'Jeografia provincial de Cordova' de Codazzi.",
+      "texto": "Así pues, la imagen complementa visualmente la descripción que Codazzi hace del “Aspecto del país”. Los comisionados entraron a la región justamente por la “parte meridional”. Esto es, desde la provincia de Mariquita (hoy el departamento del Tolima), por la meseta de Herveo, hacia Manizales. En concordancia con lo mostrado por la imagen, Codazzi refiere un paisaje despoblado sin signos de civilización. Desde una vista semejante a la de la montaña de la lámina, el paisaje es descrito como un cúmulo de “serranías intrincadas” entre las cuales hay “selvas tupidas”.  Habla de una “vistosa perspectiva”  de los ramales de las cordilleras que se suceden y dejan entre sí “estrechas y profundas quiebras”. Al fondo, se ve la luciente mesa de Herveo y los picos nevados de Santa Isabel, del Tolima y del Ruiz <a href='https://babel.hathitrust.org/cgi/pt?id=mdp.35112103696557&view=1up&seq=106' target='_blank'>(Codazzi, 1854)</a>.<br><br> Varias láminas de la Comisión atribuidas a Henry Price, que fueron creadas en este recorrido, se concentran en aclarar las ubicaciones de los picos nevados. Esto se constata desde temprano en el recorrido que se puede reconstruir a partir de las ilustraciones. Por ejemplo, en la lámina con la Vista de Ambalema desde la orilla derecha del Magdalena (izquierda), o la lámina de los Habitantes de los llanos de Mariquita, con la vista de los nevados del Tolima, Ruiz y Mesa de Herveo. De particular interés es lámina Meseta de Herveo, Ruiz, Tolima, Santa Isabel, Gran Cráter. Medidas tomadas por el coronel Codazzi (Derecha). La imagen muestra a los comisionados en el ejercicio mismo de la observación a través de instrumentos, como se puede ver en el detalle. A juzgar por la manera como están dispuestos los nombres de los picos nevados en el papel, se puede deducir que están asignándole un lugar de referencia desde la perspectiva en la que se encuentran.",
+      "opciones": [{"btn": "<<<", "scene":"cargueroManizales"}, {"btn": "Mapa corográfico de Córdova", "scene": "mapaCordova"}]
     },
     "mapaCordova": {
-      "imagen": "assets/imgs/204.jpg",
+      "titulo": "El mapa corográfico de la provincia de Córdova complementa la información del 'Aspecto del país' y de las láminas.",
+      "texto": "El Mapa corográfico de la provincia de Córdova también se puede leer en relación con los otros materiales de la Comisión corográfica. Toda la información levantada en los informes y mostrada en las láminas, está condensada en el mapa, el cual puede caracterizarse como una juiciosa visualización de datos. En el mapa, desde la rosa de los vientos en la dirección de las manecillas del reloj, se pueden observar: 1) una tabla con las convenciones del mapa; 2) un recuadro con las particularidades distintivas de la provincia de Córdova; 3) tabla por cantones de los terrenos de la provincia y sus diferentes calidades. 4) un recuadro de la “perspectiva ideal” para comparar la altura sobre el nivel del mar de los cerros y los poblados; 5) las minas; 6) tres escalas para las distancias; 7) recuadro de los principales artículos que se producen en la provincia; 8) recuadro de ríos, ciénagas y lagunas; 9) distancias de los caminos entre los principales poblados; 10) tabla con la posición astronómica, altura sobre el nivel del mar, temperatura promedio, población, hombres elegibles para empuñar armas, cabezas de ganado, animales de carga de las ciudades principales de cada cantón de la provincia; 11) el cartucho del mapa. Toda esta información sintetiza, tabula y visualiza los datos presentados en la “Jeografia física y política de la Provincia de Córdova”.<br><br> *El mapa contiene áreas interactivas en las tablas y en los detalles pertinentes para la narrativa.",
+      "imagen": "assets/imgs/204.jpg", 
       "meta": "197",
-      "opciones": [{"btn": "Raza", "scene": "tiposHumanos"}],
+      "opciones": [{"btn": "<<<", "scene":"vistaRuiz"},{"btn": "Tipos humanos antioqueños", "scene": "tiposHumanos"}, {"btn":"Manizales", "scene":"manizales"}],
       "areas": [
         {
           "x": 4438,
@@ -85,59 +98,75 @@
     },
     "convenciones": {
       "imagen":"assets/imgs/208.jpg",
+      "titulo":"Las convenciones muestran las condiciones de los caminos",
+      "texto": "Las condiciones de los caminos también están representadas en el Mapa corográfico. Los cartógrafos del siglo XIX se enfrentaban a un reto para determinar las distancias en los mapas. En el caso específico de la Nueva Granada, estos retos tenían que ver con los diferentes sistemas de medición vigentes en ese momento (leguas granadinas, leguas castellanas y sistema métrico francés) y con el terreno montañoso.  Codazzi resolvió el problema asignando diferentes colores a las convenciones para los tipos de terreno: la línea continua amarilla representa los caminos en valles, la línea punteada amarilla representa las veredas en valles. Por su parte, la línea 'colorada' continua representa camino en serranía y la línea punteada 'colorada' representa vereda en serranía. ",
       "meta": "201",
       "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
     },
     "perspectiva": {
+      "titulo":"Perspectiva ideal de los relieves de la Provincia de Córdova",
       "imagen": "assets/imgs/205.jpg",
+      "texto": "El Mapa corográfico de la provincia de Córdova incorpora una 'perspectiva ideal' que facilita la comparación de las altitudes de los cerros y los pueblos en relación con el nivel del mar. Esta perspectiva está arraigada en la tradición del Tableau phisique de Humboldt y los Perfiles de los Andes de Caldas, los cuales se mencionaron previamente en la primera parte de este relato titulada 'Humboldt y el carguero colonial'. La perspectiva ideal se materializa en una representación visual de montañas y pequeñas ciudades dispuestas en un plano vertical y medidas con respecto al nivel del mar. Esto posibilita la comparación de las alturas de las montañas y los pueblos de la provincia. Los detalles de esta perspectiva resaltan puntos ya previamente mencionados, como la meseta de Herveo, el nevado del Ruiz y el cráter, en relación con las localidades del cantón de Sonsón de la provincia de Córdova, tales como Manizales, Pácora, Neira, Salamina y Sonsón.",
       "meta": "198",
       "opciones": [{"btn": "<<<", "scene": "mapaCordova"}, {"btn": "Humboldt", "scene": "perfilesHumboldt"}, {"btn": "Caldas", "scene": "perfilesCaldas"}]
     },
     "productos": {
       "imagen":"assets/imgs/207.jpg",
+      "titulo": "",
+      "texto": "En el séptimo recuadro se habla de sus principales productos agrícolas y manufacturas de los dfierentes cantones de la provincia.",
       "meta": "200",
       "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
 
-    }, "escalas": {
+    }, 
+    "escalas": {
       "imagen":"assets/imgs/209.jpg",
+      "texto":"En la sexta tabla se encuentran las escalas para convertir las distancias según el tipo de vía.",
       "meta": "202",
       "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
     },
     "posiciones": {
       "imagen":"assets/imgs/206.jpg",
+      "texto": "La décima tabla tiene información sobre la altura sobre el nivel del mar, el ganado, los animales de carga y la temperatura de los poblados.",
       "meta": "199",
       "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
     },
     "manizales": {
       "imagen":"assets/imgs/210.jpg",
+      "titulo": "Manizales entre la diversidad climática y los pésimos caminos",
+      "texto": "En una paradoja, Manizales y otras poblaciones poseen clima y potencial para colonizar territorios con climas favorables, pero carecen de vías de comunicación. Aquí, el carguero es usado para simbolizar la dificultad en caminos y en el transporte de efectos económicos. Codazzi afirma que los caminos son 'de tal modo peligrosos, que en la estación de lluvias es una temeridad poder transitarlos'.  Algunos de estos caminos no pueden transitarse a caballo: 'i hai que hacer uso de hombres que llevan a las personas i las cargas a espalda, funcionando como las bestias'. Codazzi se pregunta sobre la viabilidad del comercio en estas condiciones. Los productos se encarecen debido a cálculos de riesgo y tiempo. Y, así mismo, se proyecta hacia el futuro: '¿qué no harán cuando se abran los caminos carreteros que la naturaleza misma tiene preparados en medio de sus quebrados terrenos?'  Así, el corógrafo en este horizonte de expectativas postula, por ejemplo, que Sonsón, actualmente con una pésima vía de cargueros para llegar a Honda, debería tener 'un camino de ruedas por donde en pocos días lleve sus frutos i traiga las mercancías acumuladas en aquel puente' <a href='https://babel.hathitrust.org/cgi/pt?id=mdp.35112103696557&view=1up&seq=107' terget='_blank'>(Codazzi, 1854)</a>. Siguiendo la tabla de convenciones, en el mapa se puede observar que, en las inmediaciones de Manizales, se encuentran caminos en terreno plano, y que una vez se internan en la provincia hacia el norte los caminos se hacen montañosos. ",
       "meta": "203",
-      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}, {"btn":"Convenciones", "scene": "convenciones"}, {"btn":"Sonsón", "scene":"sonson"}]
     },
     "sonson": {
       "imagen":"assets/imgs/211.jpg",
+      "titulo": "El camino de cargueros de Sonsón",
+      "texto":"En las inmediaciones de Sonsón se observan caminos planos que se extienden y se hacen montañosos. El horizonte de expectativa relacionado con el futuro camino de ruedas desde Sonsón a Honda que reemplazaría el antiguo camino de cargueros, parece haberse dibujado también en el mapa, pues una línea continua, indicadora de un camino montañoso –y no de una vereda-, se extiende hasta Honda, tal y como lo proyectó en Codazzi en su descripción textual publicada en la Gaceta Oficial <a href='https://babel.hathitrust.org/cgi/pt?id=mdp.35112103696557&view=1up&seq=107' terget='_blank'>(Codazzi, 1854)</a>.",
       "meta": "204",
-      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}, {"btn":"Convenciones", "scene": "convenciones"}, {"btn":"Manizales", "scene":"manizales"}]
     },
     "perfilesHumboldt": {
+      "titulo":"Comparación de la 'Perspectiva ideal' de Codazzi con el 'Tableau phisique' de Humboldt",
       "viz": {"filter": [[]], "type": "compare", "x": 198, "y": 110},
       "opciones": [{"btn": "<<<", "scene": "perspectiva"}]
     },
     "perfilesCaldas":{
+      "titulo":"Comparación de la 'Perspectiva ideal' de Codazzi con los 'Perfiles de los Andes' de Caldas",
       "viz": {"filter": [[]], "type": "compare", "x": 198, "y": 116},
       "opciones": [{"btn": "<<<", "scene": "perspectiva"}]
     },
     "tiposHumanos": {
-      "imagen":"assets/imgs/212.jpg",
-      "meta": "205",
+      "titulo": "El carguero y los tipos humanos antioqueños",
+      "viz": {"filter": [[]], "type": "compare", "x": 29, "y": 205},
+      "texto": "En la lámina puede observarse que tanto el carguero como el cargado son de la misma raza y tienen el mismo atuendo y apariencia. Solo se distinguen por los pies descalzos del carguero. Esto es inédito en las representaciones del carguero. En esta lámina la relación entre carguero y cargado no es de jerarquía, sino de igualdad. Esto da cuenta de una variación en el sentido de la relación entre el arriba y el abajo expresada en la lámina. De manera sorprendente, ninguno de los viajeros extranjeros de la república temprana registró la posibilidad de que la actividad del carguero pudiese ser llevada a cabo para el apoyo mutuo de los miembros de una misma comunidad. <br><br> La representación del carguero y el cargado como pares en condiciones de igualdad tiene implicaciones relacionadas con los objetivos de la Comisión corográfica y con el pensamiento racial de la época. Debe recordarse que Agustín Codazzi se refirió a los escasos pobladores de la provincia de Córdova, la ‘antigua Antioquia’, como de ‘raza blanca, vigorosa y sana’  y como ‘activos e industriosos’ <a href='https://babel.hathitrust.org/cgi/pt?id=mdp.35112103696557&view=1up&seq=106' target='_blank'>(Codazzi, 1854)</a>.  En un sentido semejante Manuel Pombo, un viajero de ascendencia liberal que estuvo por aquel entonces en la región, habla de los antioqueños como ‘la generalidad de los habitantes de este lugar’ , ‘la masa de la gente antioqueña’ , la ‘raza antioqueña’  o el ‘tipo antioqueño’  y se refiere a ellos en términos generales, como una raza trabajadora y promisoria <a href='https://drive.google.com/file/d/1CMv5AS7Phs0ZSZpiWf1koSA7k42Vjf8-/view?usp=sharing' target='_blank'>(Pombo, [1852]1992)</a>. Las expresiones tipo, raza, y la manera de calificar la generalidad o la masa de habitantes de un lugar como portadores de características comunes, muestra el interés de los viajeros por ofrecer una generalización que clasifique y organice la diversidad a partir de categorías funcionales que permitan ubicar y reconocer a los sujetos que habitan ciertos espacios.<br><br> En contraste con la homogeneidad de la raza antioqueña expresada por Codazzi o Pombo, las láminas de Henry Price muestran la presencia en Antioquia de heterogeneidad racial. En todas sus láminas se ven tipos de diferentes tonos de piel, dispuestos de frente y de perfil, mostrando sus contrastes, indumentaria y actividades. Appelbaum sostiene la tesis de que estas imágenes pretendían mostrar un proceso de mestizaje que estaba avanzado con respecto al de las tierras bajas, en donde los tipos negros e indios eran predominantes. Las diferencias en la representación de los espacios establecían jerarquías entre ellos y determinaban distintos cursos de acción para imaginar cómo debían ser incluidos en la unidad republicana. Mientras los habitantes de los altiplanos del nororiente y del noroccidente necesitaban desarrollar ‘instituciones republicanas para florecer’, las poblaciones de las tierras bajas requerían otros métodos no tan democráticos: ‘tenían que ser subyugadas, colonizadas e integradas a la fuerza a la nación’ <a href='https://descubridor.banrepcultural.org/permalink/57BDLRDC_INST/qk5q4l/alma991003392629707486' target='_blank'>(Appelbaum, 2017: 92)</a>.",
       "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
     },
     "cargueroChoco": {
-      "imagen":"assets/imgs/39.jpg",
+      "imagen":"assets/imgs/29.jpg",
       "meta": "30",
-      "opciones": [{"btn": "Gauthier", "scene": "gauthier"}]
+      "opciones": [{"btn": "<<<", "scene":"inicio"}, {"btn": "Gauthier", "scene": "gauthier"}]
     },
     "gauthier": {
       "viz": {"filter": [["autor", "=", "Léon Gauthier"], ["fecha", "<", "1900"]], "type": "pack", "x": "autor", "y": "autor"},
-      "opciones": [{"btn": "Provincia de Córdova", "scene": "casaTunja"}]
+      "opciones": [{"btn": "<<<", "scene":"cargueroChoco"}, {"btn": "Provincia de Córdova", "scene": "casaTunja"}]
     } 
    }
