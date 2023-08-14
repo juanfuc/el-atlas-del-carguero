@@ -29,7 +29,7 @@
       "texto": "El Mapa corográfico de la provincia de Córdova también se puede leer en relación con los otros materiales de la Comisión corográfica. Toda la información levantada en los informes y mostrada en las láminas, está condensada en el mapa, el cual puede caracterizarse como una juiciosa visualización de datos. En el mapa, desde la rosa de los vientos en la dirección de las manecillas del reloj, se pueden observar: 1) una tabla con las convenciones del mapa; 2) un recuadro con las particularidades distintivas de la provincia de Córdova; 3) tabla por cantones de los terrenos de la provincia y sus diferentes calidades. 4) un recuadro de la “perspectiva ideal” para comparar la altura sobre el nivel del mar de los cerros y los poblados; 5) las minas; 6) tres escalas para las distancias; 7) recuadro de los principales artículos que se producen en la provincia; 8) recuadro de ríos, ciénagas y lagunas; 9) distancias de los caminos entre los principales poblados; 10) tabla con la posición astronómica, altura sobre el nivel del mar, temperatura promedio, población, hombres elegibles para empuñar armas, cabezas de ganado, animales de carga de las ciudades principales de cada cantón de la provincia; 11) el cartucho del mapa. Toda esta información sintetiza, tabula y visualiza los datos presentados en la “Jeografia física y política de la Provincia de Córdova”.<br><br> *El mapa contiene áreas interactivas en las tablas y en los detalles pertinentes para la narrativa.",
       "imagen": "assets/imgs/204.jpg", 
       "meta": "197",
-      "opciones": [{"btn": "<<<", "scene":"vistaRuiz"},{"btn": "Tipos humanos antioqueños", "scene": "tiposHumanos"}, {"btn":"Manizales", "scene":"manizales"}],
+      "opciones": [{"btn": "<<<", "scene":"vistaRuiz"}, {"btn":"Entrar a Manizales", "scene":"manizales"}, {"btn": "Seguir ruta principal hacia 'Tipos humanos antioqueños'", "scene": "tiposHumanos"}],
       "areas": [
         {
           "x": 4438,
@@ -158,7 +158,160 @@
       "titulo": "El carguero y los tipos humanos antioqueños",
       "viz": {"filter": [[]], "type": "compare", "x": 29, "y": 205},
       "texto": "En la lámina puede observarse que tanto el carguero como el cargado son de la misma raza y tienen el mismo atuendo y apariencia. Solo se distinguen por los pies descalzos del carguero. Esto es inédito en las representaciones del carguero. En esta lámina la relación entre carguero y cargado no es de jerarquía, sino de igualdad. Esto da cuenta de una variación en el sentido de la relación entre el arriba y el abajo expresada en la lámina. De manera sorprendente, ninguno de los viajeros extranjeros de la república temprana registró la posibilidad de que la actividad del carguero pudiese ser llevada a cabo para el apoyo mutuo de los miembros de una misma comunidad. <br><br> La representación del carguero y el cargado como pares en condiciones de igualdad tiene implicaciones relacionadas con los objetivos de la Comisión corográfica y con el pensamiento racial de la época. Debe recordarse que Agustín Codazzi se refirió a los escasos pobladores de la provincia de Córdova, la ‘antigua Antioquia’, como de ‘raza blanca, vigorosa y sana’  y como ‘activos e industriosos’ <a href='https://babel.hathitrust.org/cgi/pt?id=mdp.35112103696557&view=1up&seq=106' target='_blank'>(Codazzi, 1854)</a>.  En un sentido semejante Manuel Pombo, un viajero de ascendencia liberal que estuvo por aquel entonces en la región, habla de los antioqueños como ‘la generalidad de los habitantes de este lugar’ , ‘la masa de la gente antioqueña’ , la ‘raza antioqueña’  o el ‘tipo antioqueño’  y se refiere a ellos en términos generales, como una raza trabajadora y promisoria <a href='https://drive.google.com/file/d/1CMv5AS7Phs0ZSZpiWf1koSA7k42Vjf8-/view?usp=sharing' target='_blank'>(Pombo, [1852]1992)</a>. Las expresiones tipo, raza, y la manera de calificar la generalidad o la masa de habitantes de un lugar como portadores de características comunes, muestra el interés de los viajeros por ofrecer una generalización que clasifique y organice la diversidad a partir de categorías funcionales que permitan ubicar y reconocer a los sujetos que habitan ciertos espacios.<br><br> En contraste con la homogeneidad de la raza antioqueña expresada por Codazzi o Pombo, las láminas de Henry Price muestran la presencia en Antioquia de heterogeneidad racial. En todas sus láminas se ven tipos de diferentes tonos de piel, dispuestos de frente y de perfil, mostrando sus contrastes, indumentaria y actividades. Appelbaum sostiene la tesis de que estas imágenes pretendían mostrar un proceso de mestizaje que estaba avanzado con respecto al de las tierras bajas, en donde los tipos negros e indios eran predominantes. Las diferencias en la representación de los espacios establecían jerarquías entre ellos y determinaban distintos cursos de acción para imaginar cómo debían ser incluidos en la unidad republicana. Mientras los habitantes de los altiplanos del nororiente y del noroccidente necesitaban desarrollar ‘instituciones republicanas para florecer’, las poblaciones de las tierras bajas requerían otros métodos no tan democráticos: ‘tenían que ser subyugadas, colonizadas e integradas a la fuerza a la nación’ <a href='https://descubridor.banrepcultural.org/permalink/57BDLRDC_INST/qk5q4l/alma991003392629707486' target='_blank'>(Appelbaum, 2017: 92)</a>.",
-      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}]
+      "opciones": [{"btn": "<<<", "scene": "mapaCordova"}, {"btn": "Región/Territorio", "scene":"region"}]
+    },
+    "region": {
+      "titulo": "Recorrido de Manuel Pombo en el Mapa corográfico de la provincia de Córdova de Codazzi",
+      "imagen":"assets/imgs/204.jpg",
+      "meta":"197",
+      "texto": "El relato de Manuel Pombo es un buen ejemplo de la incertidumbre territorial en la que se encontraba la república de la Nueva Granada en 1852. Cuando se hace el ejercicio de marcar el recorrido del viajero en los mapas corográficos de Codazzi se puede ver lo artificioso de la división en tres provincias para un territorio al que constantemente se está refiriendo como Antioquia, y sus habitantes como antioqueños. El recorrido de Pombo sale de la ciudad de Medellín, en la provincia de Medellín, y sigue hacia la ciudad de Rionegro en la provincia de Córdova, que es en donde realiza la mayoría de su recorrido. Si bien Pombo no usa la palabra región con la consistencia terminológica que más adelante adquirirá, es evidente que en su discurso se refiere al territorio que está atravesando como un espacio con particularidades físicas y culturales habitado por una raza homogénea. Esto lo hace con un reconocimiento expreso de la división territorial en tres provincias de la región antioqueña, pues cuando divisa el paisaje desde la mesa de Herveo, en el mismo párrafo registra la observación de un rasgo distintivo del paisaje de 'Antioquia' -la serie de sus montañas escalonadas- y de los límites de las provincias de Córdova y Mariquita <a href='https://drive.google.com/file/d/1CMv5AS7Phs0ZSZpiWf1koSA7k42Vjf8-/view?usp=sharing' target='_blank'>(Pombo, [1852]1992: 113)</a>.<br><br> En el diario de Pombo también hay indicios de la incertidumbre territorial en el hecho de no saber exactamente cuál será la posición que Antioquia tendrá en la república. Dice que el general Herrera creía que debían estudiarse 'por propios y extraños' la topografía de ese 'Gibraltar antioqueño', que puede con el tiempo tener alguna significación en 'nuestra vida política'.  Por otro lado, Pombo conmina a los antioqueños a ser pacientes: 'el remedio puede venir del tiempo, de la práctica de las instituciones y la legalidad, y no de la atolondrada impaciencia y de la violencia impetuosa'.   Para Pombo, la manera de integrarse de Antioquia a la Nueva Granada está condicionada a un tipo de federalismo que tenga en cuenta, sin embargo, la unidad republicana, poniendo siempre 'los intereses permanentes de la República' por sobre las causas de 'bandería, de partido, y de aspiraciones de círculo' <a href='https://drive.google.com/file/d/1CMv5AS7Phs0ZSZpiWf1koSA7k42Vjf8-/view?usp=sharing' target='_blank'>(Pombo, [1852]1992: 115)</a>. <br><br> * El mapa contiene areas interactivas con los lugares por los que paso Manuel Pombo en su viaje de 1852.",
+      "opciones": [{"btn": "<<<", "scene": "tiposHumanos"}, {"btn": "Sobreviviencias de las imágenes del carguero antioqueño", "scene":"sobrevivencias"}],
+      "areas": [
+        {
+          "x": 1991,
+          "y": 967,
+          "w": 141,
+          "h": 74,
+          "btn": "",
+          "tooltip": "Medellín",
+          "scene": "medellin"
+        },
+        {
+          "x": 2248,
+          "y": 1067,
+          "w": 128,
+          "h": 47,
+          "btn": "",
+          "tooltip": "Rionegro",
+          "scene": "rionegro"
+        },
+        {
+          "x": 2210,
+          "y": 1550,
+          "w": 121,
+          "h": 40,
+          "btn": "",
+          "tooltip": "Abejorral",
+          "scene": "abejorral"
+        },
+        {
+          "x": 2386,
+          "y": 1600,
+          "w": 80,
+          "h": 47,
+          "btn": "",
+          "tooltip": "Sonsón",
+          "scene": "sonsonRegion"
+        },
+        {
+          "x": 2230,
+          "y": 1944,
+          "w": 67,
+          "h": 47,
+          "btn": "",
+          "tooltip": "Pácora",
+          "scene": "pacora"
+        },
+        {
+          "x": 2264,
+          "y": 2132,
+          "w": 94,
+          "h": 33,
+          "btn": "",
+          "tooltip": "Salamina",
+          "scene": "salamina"
+        },
+        {
+          "x": 2051,
+          "y": 2439,
+          "w": 87,
+          "h": 53,
+          "btn": "",
+          "tooltip": "Neira",
+          "scene": "neira"
+        },
+        {
+          "x": 2089,
+          "y": 2571,
+          "w": 121,
+          "h": 33,
+          "btn": "",
+          "tooltip": "Manizales",
+          "scene": "manizalesRegion"
+        },
+        {
+          "x": 2450,
+          "y": 2847,
+          "w": 182,
+          "h": 208,
+          "btn": "",
+          "tooltip": "Mesa de Herveo",
+          "scene": "herveo"
+        }
+      ]
+    },
+    "medellin":{
+      "imagen": "assets/imgs/212.jpg",
+      "meta": 205,
+      "titulo": "Tipos humanos en la ciudad de Medellín",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "rionegro":{
+      "imagen": "assets/imgs/298.jpg",
+      "meta": "291",
+      "titulo": "Tipos humanos en la ciudad de Rionegro",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "abejorral":{
+      "imagen": "assets/imgs/299.jpg",
+      "meta": "292",
+      "titulo": "Abejorral",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "sonsonRegion": {
+      "viz": {"filter": [[]], "type": "compare", "x": 204, "y": 290},
+      "titulo": "Sonsón",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "pacora":{
+      "imagen": "assets/imgs/300.jpg",
+      "meta": "293",
+      "titulo": "Pácora",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "salamina":{
+      "viz": {"filter": [[]], "type": "compare", "x": 289, "y": 294},
+      "titulo": "Salamina",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "neira":{
+      "imagen": "assets/imgs/302.jpg",
+      "meta": "295",
+      "titulo": "Neira",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "manizalesRegion": {
+      "viz": {"filter": [[]], "type": "compare", "x": 29, "y": 203},
+      "titulo": "Manizales",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "herveo":{
+      "imagen": "assets/imgs/203.jpg",
+      "meta": "196",
+      "titulo": "Mesa de Herveo",
+      "opciones": [{"btn": "<<<", "scene":"region"}]
+    },
+    "sobrevivencias": {
+      "viz": {"filter": [["camino", "=", "Antioquia"], ["fecha", ">", 2000]], "type":"pack", "x":"camino", "y":"fecha"},
+      "titulo": "Sobrevivencias de la imagen del carguero antioqueño",
+      "texto": "La representación del carguero como ejemplo de apoyo mutuo se mantendrá como un rasgo típico de las representaciones de cargueros en Antioquia. Una figura que es en principio mirada con recelo por los viajeros y los miembros de las élites letradas de la Nueva Granada, sobrevivirá en la región antioqueña para convertirse en una suerte de símbolo de identidad regional. Palacio <a href='https://doi.org/10.2307/3539965' taget='_blank'>(1980)</a> y Appelbaum <a href='https://descubridor.banrepcultural.org/permalink/57BDLRDC_INST/qk5q4l/alma991005185569707486' taget='_blank'>(2007)</a>  sostienen que una de las razones del éxito que tuvo Antioquia para consolidar una relativa estabilidad interna y un proceso de identidad regional que cohesionó a su población de manera relativamente efectiva, estuvo relacionada con la adopción de aspectos de la cultura popular por parte de la élite antioqueña. Estos favorecieron imágenes populares como el arriero descalzo, el colono, el ama de casa campesina y el mazamorrero y alabaron a los miembros del pueblo trabajador como pioneros heroicos que cimentaron una sociedad regional industrial y próspera. En Antioquia, no se avergonzaban por aspectos de la vida diaria como pies descalzos, maíz, frijoles, sombreros de paja, carrieres, pochos y hachas. Estos utensilios se convirtieron en símbolos de orgullo regional que reflejaban vidas de arduo trabajo. De este modo, era fácil que un personaje como el carguero, que era figurado como un igual, semejante al arriero o al campesino colono, se convirtiera en parte de esta imaginería.",
+      "opciones": [{"btn": "<<<", "scene": "region"}, {"btn": "Sobreviviencias de las imágenes del carguero en zonas de colonización antioqueña", "scene":"sobrevivenciasColonizacion"}]
+    },
+    "sobrevivenciasColonizacion": {
+      "viz": {"filter": [["camino", "=", "Quindío"], ["fecha", ">", 2000], ["otros", "=", "false"]], "type":"pack", "x":"camino", "y":"periodo"},
+      "titulo":"Sobreviviencias de las imágenes del carguero en zonas de colonización antioqueña",
+      "texto": "El carguero se ha convertido en una imagen de la gesta de la colonización antioqueña que se narra como una epopeya. Este personaje es figurado como uno de los héroes que soportaron en su espalda la heroica empresa. Algo que puede constatarse, por ejemplo, en los términos usados en relatos como el de Otto Morales Benitez: 'No exageraríamos al decir que eran verdaderos gladiadores enfrentados a lo inhóspito de la naturaleza (…). Esa senda, reptante en difíciles y casi inverosímiles vueltas y revueltas, coronando la empinada y escabrosa cima, yéndose de bruces a las simas de cañadas y cañones. Haciendo temerarios equilibrios sobre las crestas montañosas que se recortaban peligrosamente en taludes que se perdían en abismos insondables, penetrando al túnel misterioso de la jungla, era la genitora del progreso de un desarrollo regional cada día en ascenso' <a href='https://descubridor.banrepcultural.org/permalink/57BDLRDC_INST/qk5q4l/alma991015426639707486' target='_blank'>(Morales Benítez, 1997: 24)</a>.<br><br>De esta manera la figura se transpone a la zona de la colonización antioqueña como Quindío y Risaralda. En el Quindío, por ejemplo, se pueden encontrar múltiples alusiones.  Por ejemplo, el logo de la Academia de Historia del Quindío, la comparsa del Quindío de 2012 en el festival iberoamericano de teatro y el mural de Henry Villada llamado Por los caminos del Quindío. Este último establece una relación genealógica entre el carguero, el jeep, el ferrocarril y el tránsito por todos los caminos por los que se difundió la empresa de la colonización. En Risaralda, por su parte, la Maestría de Historia de la Universidad Tecnológica de Pereira tiene el carguero como logo y es usado en sus piezas publicitarias. En este caso, el carguero, en lugar de estar cargando una persona, está cargando la H mayúscula de la Historia. En un giro semántico revelador, la H mayúscula, representando el singular colectivo en el que se ha convertido la Historia desde la época de las revoluciones modernas (Zattelzeit), se convierte en la carga que soporta el carguero –que en esta imagen parece un 'Atlas del tiempo'-, pero también, podría decirse, muestra que el carguero es parte de este pasado común que hizo posible la historia misma.",
+      "opciones": [{"btn": "<<<", "scene": "sobrevivencias"}, {"btn": "Empezar de nuevo", "scene":"inicio"}]
     },
     "cargueroChoco": {
       "imagen":"assets/imgs/29.jpg",
