@@ -36,7 +36,7 @@
     "meta": 107,
     "title": "Detalle del 'Quadro del Perú': Naciones Salvajes",
     "text": "Los dos personajes representados aquí fueron protagonistas de una red de copiado de modelos, ejemplar de las prácticas de circulación de imágenes, utilizadas para gobernar a distancia, coordinar entre unidades administrativas y difundir conocimiento en el imperio hispánico de finales del siglo XVIII <a href='https://www.journals.uchicago.edu/doi/abs/10.1086/RESvn1ms23647782?journalCode=res' target='_blank'>(Bleichmar, 2011)</a>.",
-    "options": [ { "btn": "Back to main route", "scene": "scatterPeriodoFigura"} ],
+    "options": [ { "btn": "Volver a la ruta principal", "scene": "scatterPeriodoFigura"} ],
     "areas": [ { "x": 637, "y": 392, "w": 1274, "h": 783, "btn": "", "tooltip": "", "scene": "relacion" } ]
   },
   "relacion": {
