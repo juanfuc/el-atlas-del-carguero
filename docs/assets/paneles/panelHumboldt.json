@@ -2,11 +2,12 @@
     "inicio": {
         "imagen": "assets/imgs-2/6.jpg",
         "meta": 6,
-                "options": [
+        "titulo": "Humboldt y el carguero colonial",
+        "options": [
           { "btn": "1. El carguero prehispánico y colonial", "scene": "compareCargueroPre"},
           { "btn": "2. El carguero entre el atlas pintoresco europeo y la verticalidad americana", "scene": "comparePintorescoVertical"},
           { "btn": "3. El carguero Villanero en una vista andina", "scene": "mapaQuindio"},
-          {"btn": "4. Sobrevivencias. La V lámina de Vues usada como modelo", "scene": "humboldtPack"}
+          { "btn": "4. Sobrevivencias. La V lámina de Vues usada como modelo", "scene": "humboldtPack"}
         ],
         "areas": [
           { "x": 907, "y": 660, "w": 316, "h": 474, "btn": "", "tooltip": "", "scene": "villanero" },
@@ -86,13 +87,13 @@
       "bijao": {
         "imagen": "assets/imgs/126.jpg",
         "meta": 119,
-        "text": "The Cargueros act as guides and make it possible to cross the difficult path, not only because of their physical strength, but also because of the knowledge they have of the landscape they inhabit. They know the signs of the terrain, climate, and usefulness of plants. The same Carguero, the one in the image that stares at the viewer and has an empty chair, carries in his hands some bijao leaves that, the story tells us, will later be used to make tents and shelter from the rain. Humboldt draws the bijao leaves in his diary",
+        "text": "Los Cargueros actúan como guías y hacen posible cruzar el camino difícil, no solo debido a su fuerza física, sino también debido al conocimiento que tienen del paisaje que habitan. Conocen las señales del terreno, el clima y la utilidad de las plantas. El mismo Carguero, aquel en la imagen que mira al espectador y tiene una silla vacía, lleva en sus manos unas hojas de Bijao que, nos cuenta la historia, luego se utilizarán para hacer tiendas de campaña y refugios contra la lluvia. Humboldt dibuja las hojas de bijao en su diario.",
         "options": [ { "btn": "Ruta principal", "scene": "inicio"} ]
       },
       "agave": {
         "imagen": "assets/imgs-2/128.jpg",
         "meta": 121,
-        "text": "There is a flowering Fique or Agave on the right side of the Plate V of Vues. This plant is used for the elaboration of ropes that tie the Bijao leaves and secure the tents",
+        "text": "Hay un Fique o Agave florecido en el lado derecho de la Lámina V de Vues. Esta planta se utiliza para la elaboración de cuerdas que atan las hojas de Bijao y aseguran las tiendas de campaña.",
         "options": [ { "btn": "Ruta principal", "scene": "inicio"} ],
         "areas": [
           {
@@ -109,7 +110,7 @@
       "agaveDiario": {
         "imagen": "assets/imgs/127.jpg",
         "meta": 120,
-        "text": "In Humboltd's diaries, there are drawings of the tents specifying how to tie them so that they are resistant. In the story, these plants are considered regarding their geographical location in relation to altitude, taxonomically by being categorized into families and species, and by their usefulness by speculating about their industrial applications.",
+        "text": "En los diarios de Humboldt, hay dibujos de las tiendas que especifican cómo atarlas para que sean resistentes. En la historia, estas plantas son consideradas en cuanto a su ubicación geográfica en relación con la altitud, taxonómicamente al ser categorizadas en familias y especies, y por su utilidad al especular sobre sus aplicaciones industriales.",
         "options": [ { "btn": "Ruta principal", "scene": "inicio"} ]
       },
       "humboldtPack": {
@@ -122,7 +123,7 @@
         "viz": {"filter": [[]], "type": "compare", "x":97, "y":276},
         "titulo": "Humboldt y la historia prehispánica y de la colonia temprana",
         "opciones":  [ { "btn": "<<<", "scene": "inicio"}, { "btn": "Carguero mesoamericano", "scene": "cargueroPre"},  { "btn": "Carguero Amazonas/Andes", "scene": "amazonia"} ],
-        "texto": "La descripción que Humboldt lleva a cabo del encuentro con el carguero es una manifestación de conciencia histórica. El viajero investigó en su viaje a Ciudad de México sobre la existencia de colecciones de “pinturas históricas”. De la misma manera lo hizo en su estadía en Roma en 1805 <a href='https://www.cairn.info/revue-etudes-germaniques-2011-1-page-21.htm' target='_blank'>(Bourguet)</a>. En los estudios sobre la historia de las civilizaciones prehispánicas en Vues, no se mencionan las prácticas prehispánicas de los cargueros. Por ejemplo, el Códice Mendoza que tiene referencias a los cargueros prehispánicos, pero Humboldt en su análisis no las menciona. Se centra en la procedencia, difusión, estructura e interpretaciones de este códice <a href='https://archive.org/details/vuesdescordille1humb/page/78/mode/2up?view=theater' target='blank'>(Humboldt, Vues, I, 78)</a>. La única referencia que Humboldt hace sobre el origen histórico de la práctica de los cargueros se encuentra en su diario, donde afirma que existía desde el periodo prehispánico. En ese tiempo, personas prominentes eran transportadas por varios individuos en una especie de litera o silla portátil. Además, menciona que el sistema de cargar a otros seres humanos en sillas fue un 'descubrimiento' español, resultado de la comodidad y la necesidad en un país donde montar a caballo resultaba imposible <a href='https://descubridor.banrepcultural.org/discovery/fulldisplay?docid=alma991005445879707486&context=L&vid=57BDLRDC_INST:57BDLRDC_INST&lang=es&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=ALL&query=any,contains,diarios%20humboldt&offset=0' target='_blank'>(Humboldt, Diarios, 113a)</a>.<br><br>La conciencia histórica de Humboldt en relación con los cargueros no se limita a proporcionar breves indicaciones sobre su origen prehispánico y su posterior transformación colonial, sino que también implica la forma en que los sitúa en un presente al que ya no pertenecen o no deberían pertenecer. En general, se podría decir que Humboldt considera la práctica de los cargueros como anacrónica, como un vestigio de tiempos prehispánicos que, debido a los avances conceptuales y tecnológicos de su época, debería desaparecer para redirigir las energías de estas personas hacia actividades más beneficiosas para la felicidad colectiva."
+        "texto": "La descripción que Humboldt lleva a cabo del encuentro con el carguero es una manifestación de conciencia histórica. Durante su estadía en Ciudad de México, el prusiano investigó sobre la existencia de colecciones de “pinturas históricas”. De la misma manera lo hizo en su estadía en Roma en 1805 <a href='https://www.cairn.info/revue-etudes-germaniques-2011-1-page-21.htm' target='_blank'>(Bourguet)</a>. En los estudios sobre la historia de las civilizaciones prehispánicas en Vues, no se mencionan las prácticas prehispánicas de los cargueros. Por ejemplo, el Códice Mendoza que tiene referencias a los cargueros prehispánicos, pero Humboldt en su análisis no las menciona. Se centra en la procedencia, difusión, estructura e interpretaciones de este códice <a href='https://archive.org/details/vuesdescordille1humb/page/78/mode/2up?view=theater' target='blank'>(Humboldt, Vues, I, 78)</a>. La única referencia que Humboldt hace sobre el origen histórico de la práctica de los cargueros se encuentra en su diario, donde afirma que existía desde el periodo prehispánico. En ese tiempo, personas prominentes eran transportadas por varios individuos en una especie de litera o silla portátil. Además, menciona que el sistema de cargar a otros seres humanos en sillas fue un 'descubrimiento' español, resultado de la comodidad y la necesidad en un país donde montar a caballo resultaba imposible <a href='https://descubridor.banrepcultural.org/discovery/fulldisplay?docid=alma991005445879707486&context=L&vid=57BDLRDC_INST:57BDLRDC_INST&lang=es&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=ALL&query=any,contains,diarios%20humboldt&offset=0' target='_blank'>(Humboldt, Diarios, 113a)</a>.<br><br>La conciencia histórica de Humboldt en relación con los cargueros no se limita a proporcionar breves indicaciones sobre su origen prehispánico y su posterior transformación colonial, sino que también implica la forma en que los sitúa en un presente al que ya no pertenecen o no deberían pertenecer. En general, se podría decir que Humboldt considera la práctica de los cargueros como anacrónica, como un vestigio de tiempos prehispánicos que, debido a los avances conceptuales y tecnológicos de su época, debería desaparecer para redirigir las energías de estas personas hacia actividades más beneficiosas para la felicidad colectiva."
       },
       "cargueroPre": {
         "imagen": "assets/imgs/104.jpg",
@@ -131,6 +132,7 @@
         "opciones":  [ { "btn": "<<<", "scene": "compareCargueroPre"}, {"btn": "Ruta principal", "scene": "cargueroFlorentino"} ]
       },
       "cargueroFlorentino": {
+        "titulo":"Los Pochteca se espacializaron en el oficio ",
         "imagen":"assets/imgs/287.jpg",
         "meta": 280,
         "opciones":  [ { "btn": "<<<", "scene": "cargueroPre"}, {"btn": "Ruta principal", "scene": "compareCargueroMendoza"} ]
@@ -141,6 +143,7 @@
         "opciones":  [ { "btn": "<<<", "scene": "cargueroFlorentino"}, {"btn": "Ruta principal", "scene": "cargueroKingsborough"}  ]
       },
       "cargueroKingsborough": {
+        "titulo": "Los tlamemes eran ofrecidos como tributo",
         "imagen": "assets/imgs/286.jpg",
         "meta": 279,
         "opciones":  [ { "btn": "<<<", "scene": "compareCargueroMendoza"}, {"btn": "Sobrevivencia del Carguero mexicano en el siglo XIX", "scene": "mexico"}  ]
@@ -152,6 +155,7 @@
       },
       "compareMexico": {
         "viz": {"filter": [[]], "type": "compare", "x":17, "y":36},
+        "titulo": "Comparacion entre los cargueros de viajeros en México en el siglo XIX",
         "opciones":  [  { "btn": "<<<", "scene": "mexico"}, { "btn": "Amazonas/Andes", "scene": "amazonia"} ]
       },
       "amazonia": {
@@ -160,38 +164,94 @@
         "opciones":  [  { "btn": "<<<", "scene": "compareMexico"}, { "btn": "Inicio", "scene": "inicio"}]
       },
       "cargueroDocumento": {
+        "titulo": "Cargueros en documentos de agentes imperiales que informan sobre el modo de transporte en territorios de dificil tránsito",
+        "texto": "En el período de la colonia tardía, los cargueros continuaban desempeñando su oficio, al igual que otros tipos de prácticos o baqueanos que servían como guías, tales como rastreadores, mediadores, bogas y traductores <a href='https://doi.org/10.15446/achsc.v47n1.83145 ' target='_blank'>(Montoya López, 2020)</a>. Los cargueros eran de gran utilidad para diversos viajeros, como misioneros, exploradores y autoridades civiles, en el contexto de las actividades de expansión del dominio de la Monarquía Hispánica borbónica hacia los territorios de frontera. Muchos de los viajeros informaban sobre las mejores maneras de atravesar los territorios más difíciles. Debido a esto, se pueden encontrar diversos cargueros en ilustraciones de informes burocráticos y de exploración científica a finales del siglo XVIII. En estas imágenes el carguero de hombres es representado como una suerte de reporte o informe acerca del 'modo' de transportarse en los lugares de difícil tránsito. También se encuentran imágenes de cargueros de objetos con un ánimo clasificatorio que informa acerca de los tipos de habitantes de zonas que son diferenciadas según se hayan civilizado o esté esperando por ser civilizadas.<br><br>Desde los primeros días de exploración y asentamiento, la tarea de hacer conocido y gobernable el Nuevo Mundo implicaba hacerlo visible a través de la distancia <a href='https://academic.oup.com/chicago-scholarship-online/book/21366/chapter-abstract/181103437?redirectedFrom=fulltext' target='_blank'>(Bleichmar, 2012: 33)</a>. En el siglo XVIII, se continuaron produciendo imágenes con el propósito de hacer visible el imperio español. La producción visual de este periodo está relacionada con el proyecto imperial del mundo hispánico durante los reinados de Carlos III y Carlos IV. Durante este período, se llevaron a cabo diversos esfuerzos de exploración con el objetivo de expandir las fronteras imperiales, asegurar los dominios y obtener recursos. Estas acciones tenían como finalidad “reconquistar” el territorio americano y utilizarlo para restaurar la hegemonía hispánica frente a la competencia de otras potencias imperiales de la época, especialmente Inglaterra, Holanda y Francia. Estas imágenes eran elaboradas por ilustrados y pintores criollos, exploradores científicos de las expediciones hispánicas y burócratas virreinales. Entre estas se pueden enumerar los siguientes tipos: ilustraciones botánicas que flotan descontextualizadas en un fondo blanco , pinturas de casta  y de mestizaje , cuadros de historia natural , ilustraciones en documentos de funcionarios virreinales como es el caso de las relaciones de gobierno , álbumes y colecciones de láminas de tipos y especímenes de fauna y flora hechos con sensibilidad ilustrada y las cartografías verticales que pretendían graficar la nivelación de alturas y la geografía de las plantas. Los principios estéticos de estas imágenes permiten establecer ciertas relaciones con la lámina V de Vues hecha por Humboldt. De esta manera, esta narrativa plantea que la interpretación de Humboldt sobre cómo representar la naturaleza no surgió en el vacío, sino que fue desarrollada en un contexto que la hace legible. Este contexto no solo se relaciona con las discusiones que se llevaban a cabo en las audiencias europeas a las que Humboldt dirigió sus imágenes y declaraciones publicadas después de llegar a Europa, sino también con las redes intelectuales, los guías y los paisajes con los que él interactuó durante su viaje por América. En su estudio, Bleichmar destaca una distinción que es relevante para el argumento de esta tesis. Esta diferencia radica entre las representaciones idealizadas de plantas flotando en un espacio abstracto de fondo blanco, y ciertos enfoques para representar la naturaleza americana que emergieron en ese momento a lo largo de los virreinatos. Estos últimos establecían relaciones entre los especímenes botánicos y los lugares donde eran producidos. Entre estos enfoques se encuentran las pinturas de mestizaje de Vicente Albán, el cuadro del Perú comisionado por José Ignacio Lecuanda y las pinturas de castas de la Nueva España <a href='https://academic.oup.com/chicago-scholarship-online/book/21366/chapter-abstract/181103437?redirectedFrom=fulltext' target='_blank'>(Bleichmar, 2012)</a>.",
         "viz": {"filter": [[]], "type": "compare", "x":4, "y":5},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "expedicion"}]
+        "opciones":  [ { "btn": "<<<", "scene":"comparePintorescoVertical"}, { "btn": "Ruta principal", "scene": "expedicion1"}]
       },
       "expedicion": {
+        "titulo": "Dispositivos de almacenamiento de los ejemplares botánicos trasladados a Europa",
+        "texto": "El estilo de las ilustraciones consistía en presentar una naturaleza idealizada que mostraba las posibilidades espacio-temporales de su desarrollo, descontextualizada geográficamente y superpuesta en una página blanca. Este enfoque permitía llevar a cabo la operación de acopio, apropiación, traslado, clasificación y resguardo de los ejemplares naturales del Nuevo Mundo. La epistemología visual de la historia natural practicada en las expediciones botánicas de América exigía el establecimiento de reglas, códigos y convenciones tanto discursivas como visuales para garantizar su validez dentro de una comunidad de especialistas. Estas reglas no solo se relacionaban con el funcionamiento interno de los discursos y las imágenes, sino también con las necesidades prácticas derivadas del transporte de la naturaleza para su observación, clasificación y almacenamiento en los centros metropolitanos del imperio.",
         "viz": {"filter": [[]], "type": "compare", "x":100, "y":101},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "expedicion1"}]
+        "opciones":  [ { "btn": "<<<", "scene":"expedicion1"}, { "btn": "Ruta principal", "scene": "cargueroMalaspina"}]
       },
       "expedicion1": {
+        "titulo": "Representaciones de plantas flotando en un espacio blanco",
+        "texto": "Daniela Bleichmar ha resaltado la importancia del entrenamiento de la mirada y la producción de imágenes en el contexto de las expediciones científicas borbonas, así como en los debates de la ilustración criolla y la administración pública virreinal a finales del siglo XVIII. Bleichmar habla de un modo específico de conocer que ella denomina “epistemología visual”  , en el que se conjugan, de manera complementaria, las actividades de observación y representación. Las imágenes se producen a través de un ejercicio de observación especializada de los objetos a representar, y a su vez, esa observación solo puede cualificarse por medio del contraste con materiales visuales publicados en libros, y técnicas complejas que ayudan al botánico a ver 'lo visible y lo invisible' <a href='https://academic.oup.com/chicago-scholarship-online/book/21366/chapter-abstract/181103437?redirectedFrom=fulltext' target='_blank'>(Bleichmar, 2012: 48)</a><br><br> Así pues, el estilo de las ilustraciones consistía en presentar una naturaleza idealizada que mostraba las posibilidades espacio-temporales de su desarrollo, descontextualizada geográficamente y superpuesta en una página blanca. Un ejemplo claro de esta diferencia se observa en la comparación arriba presentada, donde se puede apreciar la distinción entre la visualización de un ejemplar de Gustavia augusta conservado en un herbario y un ejemplar dibujado por Manuel Antonio Cortés Alcocer, uno de los dibujantes de la Expedición botánica de la Nueva Granada.",
         "viz": {"filter": [[]], "type": "compare", "x":98, "y":99},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "malaspina"}]
+        "opciones":  [ { "btn": "<<<", "scene":"cargueroDocumento"},{ "btn": "Ruta principal", "scene": "expedicion"}]
       },
       "malaspina": {
         "viz": {"filter": [[]], "type": "compare", "x":103, "y":104},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "cuadro"}]
+        "titulo": "Láminas de la Expedición Mlaspina en el Museo de América",
+        "texto": "Algunas de estas imágenes ponen juntos dos tipos de indios de una determinada región, y están acompañadas por textos explicativos. En algunos casos estos textos se refieren a la posibilidad de llevar a cabo proyectos útiles a los intereses del reino, como es el caso de la lámina “Habitantes de las riberas del río Napo”, que apunta a registrar la posibilidad de hacer navegable a los afluentes del río Marañón. Por otro lado, se hacen comentarios de tipo etnográfico en los que se explican modos de vestir, costumbres y señales fisionómicas. Así mismo ocurre en otro grupo de láminas en las que se muestran los tipos humanos individuales y que tiene una inscripción en su parte inferior en la que se describe la comunidad del indio, así como el lugar que habitan. ",
+        "opciones":  [ { "btn": "<<<", "scene":"cargueroMalaspina"},{ "btn": "Ruta principal", "scene": "cuadro"}]
       },
       "cuadro": {
-        "imagen": "assets/imgs-2/102.jpg",
-        "opciones":  [ { "btn": "Ruta principal", "scene": "cuadro1"}]
-      },
-      "cuadro1": {
-        "viz": {"filter": [[]], "type": "compare", "x":107, "y":106},
-        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroMalaspina"}]
-      },
+          "imagen": "assets/imgs-2/102.jpg",
+          "meta": 1,
+          "text": "Citado de: <a href='https://flacso.edu.ec/laglobal/cabinet/artificialia/quadro-del-peru/' target='_blank'>CLACSO's LAGLOBAL</a>: 'José Ignacio de Lequanda (Vizcaya 1748 – Cadiz 1800) es considerado el autor principal del Quadro. Las ilustraciones fueron realizadas por Louis Thiebaut a partir de diversas fuentes, incluyendo el códice llamado Trujillo del Perú (1782 – 85) y la expedición Malaspina (1789-1794). Lequanda pasó la mayor parte de su vida productiva en Lima, donde colaboró con el Mercurio Peruano (1791-1794). El Quadro es un óleo sobre tela y destaca por sus grandes dimensiones (331 cms. x 118 cms.) y su composición: 195 escenas con 381 figuras rodeadas de texto. Además, el marco que rodea el lienzo está coronado con una pieza dorada que incluye dos cornucopias y un haz de flechas, símbolos del botín o el “tesoro” del Nuevo Mundo bajo la Monarquía Hispánica. Las dos imágenes geográficas centrales (un mapa de la zona central del Perú y una vista del perfil de las ricas minas de Hualgayoc) forman un eje que representa el nuevo centro económico del Perú del siglo XVIII, desplazado desde Potosí a las inmediaciones de Lima. La región central unía tres zonas ecológicas y productivas mayores. En el Quadro esta economía geográfica vertical aparece representada por una secuencia concéntrica de nichos poblados de peces y anfibios, cuadrúpedos pequeños y grandes, simios y humanos. Esta última fila se divide en dos grupos, “civilizados” (costeros y serranos) y “salvajes” (amazónicos), cada uno compuesto de dieciséis “naciones”. El perímetro del Quadro está ocupado por aves, que parecen levantar el lienzo en sus alas. En una palabra, el Quadro es un tableau que revela un campo visual sinóptico de lo que hoy llamaríamos biodiversidad, pero que en los círculos ilustrados de la época se conocía como“la idea del Perú”. Esta “idea” sostenía que el Perú era un espejo del Universo, la joya de la corona del Imperio Hispánico.'.",
+          "opciones":  [ {"btn": "<<<", "scene":"malaspina"}, { "btn": "Ruta principal", "scene": "cargueroMestizaje"}],
+          "areas": [
+            { "x": 424, "y": 348, "w": 621, "h": 338, "btn": "", "tooltip": "", "scene": "nacionesCivilizadas" },
+            { "x": 1293, "y": 329, "w": 395, "h": 417, "btn": "", "tooltip": "", "scene": "detalleNacionSalvaje" },
+            {
+              "x": 801,
+              "y": 524,
+              "w": 224,
+              "h": 138,
+              "btn": "",
+              "tooltip": "",
+              "scene": "mapaCuadro"
+            }
+          ]
+        },
+        "mapaCuadro":{
+          "titulo": "Detalle del Quadro del Perú que muestra el mapa que se sitúa en el centro de la composición y que contextualiza geográficamente los elementos de la obra.",
+          "imagen":"assets/imgs/238.jpg",
+          "meta":"232"
+        },
+        "nacionesCivilizadas": {
+          "imagen": "assets/imgs-2/2.jpg",
+          "meta": 2, "options": [ { "btn": "Volver a la ruta principal", "scene": "cuadro"} ]
+        },
+        "detalleNacionSalvaje": {
+          "imagen":"assets/imgs-2/114.jpg",
+          "meta": 107,
+          "title": "Detalle del 'Quadro del Perú': Naciones Salvajes",
+          "text": "Los dos personajes representados aquí fueron protagonistas de una red de copiado de modelos, ejemplar de las prácticas de circulación de imágenes, utilizadas para gobernar a distancia, coordinar entre unidades administrativas y difundir conocimiento en el imperio hispánico de finales del siglo XVIII <a href='https://www.journals.uchicago.edu/doi/abs/10.1086/RESvn1ms23647782?journalCode=res' target='_blank'>(Bleichmar, 2011)</a>.",
+          "options": [ { "btn": "Volver a la ruta principal", "scene": "cuadro"} ],
+          "areas": [ { "x": 637, "y": 392, "w": 1274, "h": 783, "btn": "", "tooltip": "", "scene": "relacion" } ]
+        },
+        "relacion": {
+          "imagen":"assets/imgs/113.jpg",
+          "meta": 106,
+          "title": "Detalle de la relación de gobierno del Virrey Gil de Taboada.",
+          "text": "Por ejemplo, estas imágenes fueron utilizadas en un informe gubernamental en el cual el Virrey Gil de Taboada se dirigió a su sucesor, Ambrosio O'Higgins, Marqués de Osorno. Este informe, concluido en 1796, fue elaborado por dos de los consejeros del gobernante anterior: Hipólito Unanue y el contador José Ignacio de Lecuanda.",
+          "options": [ { "btn": "Volver a la ruta principal", "scene": "cuadro"} ],
+          "areas": [ { "x": 366, "y": 274, "w": 440, "h": 430, "btn": "", "tooltip": "", "scene": "indiosMalaspina" } ]
+        },
+        "indiosMalaspina": {
+          "meta": 103,
+          "imagen":"assets/imgs/110.jpg",
+          "title": "Expedición Malaspina",
+          "text": "Los personajes originalmente formaban parte de una serie de láminas realizadas en el contexto de la expedición Malaspina, actualmente ubicada en el Museo de América en Madrid. Las imágenes hacen referencia a Perú. Los botánicos Luis Née y Tadeo Haenke, junto con los comisionados del Virrey Gil de Taboada, Juan Tafalla y Francisco del Pulgar, participaron en esta empresa. Una de las áreas de exploración más importantes fue el contacto directo con las poblaciones nativas del Amazonas. En su composición visual, algunas de estas imágenes combinan dos tipos de indígenas de una región dada y agregan un texto explicativo.",
+          "options": [ { "btn": "Volver a la ruta principal", "scene": "cuadro"} ],
+          "areas": [ { "x": 547, "y": 273, "w": 374, "h": 540, "btn": "", "tooltip": "", "scene": "indioIquito" } ]
+        },
+        "indioIquito": {
+          "meta": 104,
+          "imagen":"assets/imgs/111.jpg",
+          "title": "Expedición Malaspina",
+          "text": "La autoría de estas imágenes está bajo discusión. Generalmente se atribuyen a un pintor anónimo y a veces a Tadeo Haenke. Aunque todas las imágenes están en la misma colección y tradicionalmente se ha asumido que fueron realizadas en el contexto de la Expedición Malaspina, existen dudas sobre la coherencia de la autoría entre las imágenes que presentan a los indígenas en parejas y aquellas que los presentan individualmente. Por un lado, basándose en un estudio formal del estilo, la tinta y el papel utilizados, <a href='https://dialnet.unirioja.es/servlet/articulo?codigo=4149969' target='_blank'>Fernando Villegas</a> ha afirmado que la primera serie de imágenes no fue elaborada por los expedicionarios de la Expedición Malaspina, sino que se realizaron durante la exploración del Gobernador Francisco Requena y el sacerdote Gribal. Por otro lado, <a href='https://publicaciones.unirioja.es/ojs/index.php/brocar/article/view/1660' target='_blank'>Peralta Ruiz</a> sostiene que el parecido entre las dos series de imágenes demuestra que los expedicionarios a cargo de Malaspina (Nee y Haneke) se encontraron con Gribal y Requena, y les permitieron copiar sus dibujos.",
+          "options": [ { "btn": "Volver a la ruta principal", "scene": "cuadro"} ]
+        }, 
       "cargueroMalaspina": {
+        "titulo": "Carguero de la Expedición Malaspina",
+        "texto": "Se pueden encontrar imágenes de cargueros tanto en el contexto de las expediciones científicas hispanas, como en el contexto de las representaciones de “color local” hechas por pintores criollos o comisionadas por burócratas virreinales. Por ejemplo, hay una imagen de un carguero de hombres en una serie de láminas realizadas en el contexto de la expedición Malaspina que están ubicadas en el Museo de América en Madrid. Entre esta serie de láminas algunas se encuentran sin atribución y por los grupos indígenas y lugares geográficos que se mencionan se ha establecido que fueron elaboradas durante el paso de la expedición por el Perú. Una de las actividades que los expedicionarios hicieron en el Perú fue la de realizar una exploración de las regiones pertenecientes a las provincias de Lima, Tarma y Huánuco. En esta empresa participaron los botánicos miembros de la expedición Luis Née, Tadeo Haenke y los comisionados del virrey Gil de Taboada y Lemus Juan Tafalla y Francisco del Pulgar. ",
         "imagen": "assets/imgs/3.jpg",
         "meta": 3,
-        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroCuadro"}]
-      },
-      "cargueroCuadro": {
-        "imagen": "assets/imgs/2.jpg",
-        "meta": 2,
-        "opciones":  [ { "btn": "Ruta principal", "scene": "cargueroMestizaje"}, { "btn": "Volver al Cuadro del Perú", "scene": "cuadro"}]
+        "opciones":  [ { "btn": "<<<", "scene":"expedicion"}, { "btn": "Ruta principal", "scene": "malaspina"}]
       },
       "cargueroMestizaje": {
         "imagen": "assets/imgs/1.jpg",
@@ -205,7 +265,7 @@
       "scatterPeriodoFigura": {
         "viz": {"filter": [ ["fecha", "<", 1900], ["otros", "=", "false"], ["periodo", "=", "1750 - 1810"] ], "type": "pack", "x": "periodo", "y": "figura/fondo"},
         "title": "Figure/Background vs. Period",
-        "text": "This panel shows that there are more images in the 'background' (fondo) and 'balance' (equilibrio) categories in the period between 1770 and 1810 than in other periods, that is, there is a predominance of representations of the Carguero as a part of the landscape, rather than as the center of attention. Images from the late colonial period (1770-1810) participated in a transformation in visual epistemology characterized by presenting different human classifications, understood as castes or nations, in their immediate geographical contexts, including the animal and botanical varieties peculiar to them (Bleichmar, 2012).",
+        "text": "Este panel muestra que hay más imágenes en las categorías de 'fondo' y 'equilibrio' en el período entre 1770 y 1810 que en otros períodos, es decir, hay una predominancia de representaciones del Carguero como parte del paisaje, en lugar de ser el centro de atención. Las imágenes del período colonial tardío (1770-1810) participaron en una transformación en la epistemología visual caracterizada por presentar diferentes clasificaciones humanas, entendidas como castas o naciones, en sus contextos geográficos inmediatos, incluyendo las variedades animales y botánicas propias de ellas <a href='https://academic.oup.com/chicago-scholarship-online/book/21366/chapter-abstract/181103437?redirectedFrom=fulltext' target='_blank'>(Bleichmar, 2012)</a>.",
         "options": [
           { "btn": "inicio", "scene": "inicio"}
         ]
@@ -255,8 +315,10 @@
         "options": [ { "btn": "<<<", "scene": "inicio" }, { "btn": "Figuras humanas en medio de montañas", "scene": "figurasContornos" } ]
       },
       "atlas": {
+        "titulo": "Un atlas pintoresco de los espacios verticales americanos",
+        "texto": "En la introducción a Vues Humboldt privilegió explícitamente la corrección de la representación de los paisajes por encima de su efecto pintoresco: 'Una parte de este Atlas está destinada a mostrar las grandes escenas que presenta esta [América] naturaleza. Se ha prestado menos atención a pintar aquellas que producen un efecto pintoresco que a representar exactamente los contornos de las montañas, los valles que surcan sus laderas y las imponentes cascadas formadas por la caída de los torrentes' <a href='https://archive.org/details/vuesdescordille1humb/page/4/mode/2up?view=theater' target='_blank'>(Humboldt, 1810: I, 4)</a>. Su objetivo es ubicar monumentos y grupos humanos en el espacio montañoso de las cordilleras americanas, con un enfoque tanto geográfico como geológico. El atlas permite cartografiar las cordilleras y mapear sus contornos. Incluso cuando presenta monumentos, jeroglíficos o antigüedades, se busca establecer una relación entre estos productos y los espacios montañosos en los que fueron creados. Humboldt afirmaba sin dudar que estas obras ]llevan la impronta de la naturaleza salvaje de las Cordilleras'. De esta manera, el Atlas pintoresco de Humboldt puede interpretarse como un esfuerzo correlativo a sus experimentaciones cartografiando los espacios verticales, que se manifiestan de modo paradigmático en su célebre mapa vertical del Chimborazo, también conocido como el Tableau Physique.<br><br> Como bien se sabe, en la mitología griega, Atlas era un titán que, junto a su hermano Prometeo, desafió a los dioses del Olimpo para arrebatarles su poder y entregárselo a los hombres. Los hermanos fueron castigados en proporción a su fuerza: a Prometeo, en los confines del Este, un buitre le arrancaba el hígado día tras día. A Atlas, en el Oeste (entre Andalucía y Marruecos), se le condenó a sostener con sus hombros el peso de la bóveda celeste entera. Esta carga le otorgó un conocimiento profundo e insondable, así como una sabiduría enigmática. De este modo, la tradición lo considera precursor de los astronautas y los geógrafos.  El nombre del titán fue utilizado para nombrar una cordillera conocida como Atlas, un océano llamado el Atlántico y una forma arquitectónica utilizada como columna de soporte conocida como Atlante. Además, se empleó para designar una forma visual de conocimiento, inicialmente aplicada a la recopilación de mapas geográficos en libros de imágenes. A partir del siglo XVIII, el atlas de imágenes se convirtió en un género científico en sí mismo y experimentó un notable desarrollo en los siglos XIX y XX.  Durante la Ilustración y los siglos posteriores, el concepto de atlas como una publicación que recopila láminas abarcó una amplia variedad de temas, incluyendo atlas anatómicos, geológicos, geográficos y muchas otras modalidades. En la visualizacion se pueden ver algunos ejemplos de las transformaciones de la palabra del significado de 'atlas', hasta convertirse en la era mderna en una coeccion de imágenes sobre temas variados.<br><br> De este modo, es posible interpretar el Atlas Pintoresco como una colección de Vistas de paisajes que le permitieron a Humboldt articular la naturaleza con la cultura. Es por eso que explícitamente afirma dedicar una parte de su 'atlas' a 'dar a conocer las grandes escenas que presenta esta naturaleza'. Estos son los escenarios 'montuosos' en los que se ha hecho posible la producción de los 'groseros monumentos' de los pueblos americanos. En este sentido, se puede afirmar que el calificativo 'pintoresco' remite a una práctica de observación con el potencial de componer cuadros o escenas de la naturaleza, situándolos en un mapa que no solo se rige por criterios de longitud y latitud, sino también de altitud.",
         "viz": {"filter": [["modelo", "=", "atlas"]], "type": "pack", "x": "modelo", "y": "periodo"},
-        "options":  [ { "btn": "<<<", "scene": "inicio" } ]
+        "options":  [ { "btn": "<<<", "scene": "comparePintorescoVertical" } ]
       },
       "packAgave": {
         "viz": {"filter": [["modelo", "=", "agave"]], "type": "pack", "x": "modelo", "y": "periodo"},
@@ -485,11 +547,14 @@
       "comparePintorescoVertical": {
         "viz": {"filter": [[]], "type": "compare", "x": 122, "y": 0},
         "titulo": "El carguero entre el atlas pintoresco europeo y la verticalidad americana",
-        "opciones":   [{"btn": "Carguero en la verticalidad americana", "scene": "cargueroDocumento" }, {"btn": "Carguero en un Atlas Pintoresco", "scene": "grecia" } ]
+        "texto": "La V lámina de Vues des Cordillères fue dibujada por Joseph Anton Koch (1768-1839), y grabada por Christian Friedrich Duttenhofer (1778-1846). En general, las láminas de Vues fueron elaboradas por artistas europeos a quienes Humboldt contactó después de su regreso a Europa. Estas láminas exhiben características singulares relacionadas con las imágenes que acompañaban los populares libros de viajes pintorescos de la época en la que Humboldt llevó a cabo su expedición. No es en vano que el autor haya bautizado a su obra Atlas Pintoresco. En efecto, la importancia que se le otorgó al mundo clásico en la estética neoclásica y romántica, como punto de referencia para juzgar el avance civilizatorio, junto con las operaciones de encuadre de la estética pintoresca, donde el paisaje de la Europa dieciochesca se poblaba de ruinas clásicas, influyeron en la forma en que Humboldt aprendió a representar el paisaje. Algunos críticos incluso han afirmado que por medio de los principios de pintorescos aplicado por artistas europeos, Humboldt europeizó la naturaleza americana y la despojó de las características propias de su paisaje tropical <a href='https://repositorio.uam.es/handle/10486/669708' target='_blank'>Garrido Moreno, 2015.</a>.  En este mismo sentido, por ejemplo, la V lámina de Vues ha sido interpretada como una arcadia griega, más que como un paisaje tropical, que contradecía con la descripción del camino otorgada por Humboldt en su diario y en la descripción de la lámina hecha en Vues <a href='https://catalogoenlinea.bibliotecanacional.gov.co/client/es_ES/search/asset/191929/1' target='_blank'>(González, 2017: 170)</a>. <br><br> Este punto de vista ha permitido construir categorías relevantes para interpretar las láminas de Vues, pero deja de lado las imágenes de Historia Natural producidas por ilustrados, pintores criollos, científicos exploradores de las expediciones hispánicas y funcionarios virreinales que actuaban como agentes del imperio hispánico en el contexto de la expansión de su dominio hacia los territorios fronterizos propios de la época del reformismo borbónico. La V lámina de Vues, al igual que otras vistas del Atlas Pintoresco de Humboldt, comparte con estas imágenes la preocupación por representar los especímenes botánicos, animales y poblaciones dentro de un contexto geográfico que resalta las potencialidades de la diversidad de pisos térmicos del espacio vertical andino. El excesivo acento en los aspectos europeizantes de las representaciones de Humboldt, contribuyen a opacar los aspectos estéticos producidos en medio de discusiones americanas que están presentes en las visualizaciones del prusiano.",
+        "opciones":   [{"btn": "Carguero en un Atlas Pintoresco", "scene": "grecia" }, {"btn": "Carguero en la verticalidad americana", "scene": "cargueroDocumento" } ]
 
       },
       "grecia": {
         "imagen":"assets/imgs/230.jpg",
+        "titlo": "La lámina VII. Pirámide de Cholula, es un ejemplo de los motivos clásicos en el estilo pintoresco de las láminas de Vues.",
+        "texto": "La lámina VII Pirámide de Cholula fue dibujada por el pintor Georg Gmelin en Roma, quien se basó en un boceto de Humboldt. En dicha lámina se puede apreciar la herencia clásica en los pliegues de los ropajes de los dos hombres y en la figura recostada a la izquierda, con una postura forzada similar a un escorzo clásico. Además, el protagonismo de la lámina recae en la ruina de una antigua civilización indígena, comparada con construcciones piramidales de diferentes civilizaciones como las pirámides egipcias, los zigurats y la pirámide de Cayo Cestio en Roma. Sin embargo, en la lámima también se puede identificar una preocupación por la representación del perfil de cadenas montañosas, construcciones, actividades productivas y plantas del paisaje vertical americano Ver: <a href='https://repositorio.uam.es/handle/10486/669708' target='_blank'>Garrido Moreno, 2015.</a>.",
         "meta":"223",
         "options": [{"btn": "<<<", "scene": "inicio"}, {"btn": "Figuras clasicas", "scene":"figurasCholula"}, {"btn": "Montañas", "scene":"montañasCholula"}, {"btn": "Atlas", "scene":"atlas"}],
         "areas": [
@@ -524,10 +589,14 @@
       },
       "figurasCholula": {
         "viz": {"filter": [[]], "type": "compare", "x": 224, "y": 227},
+        "titulo": "Figuras clásicas en la lámina de la Pirámide de Cholula.",
+        "texto": "En esta visualización se aprecia una comparación entre las figuras con ropajes clásicos en la lámina de la Pirámide de Cholula con la figura de Dionysos reclinado en el frontón del Partenón. La compración fue sugierida por: <a href='https://repositorio.uam.es/handle/10486/669708' target='_blank'>Garrido Moreno, 2015.</a>",
         "opciones":   [{"btn": "<<<", "scene": "grecia" }]
       },
       "montañasCholula": {
         "imagen":"assets/imgs/236.jpg",
+        "titulo": "Montañas en la lámina de la Pirámide de Cholula",
+        "texto": "En la descripción de la lámina, Humboldt se preocupa por aclarar que desde la pirámide se puede disfrutar de una 'vista magnífica del Popocatépetl, el Iztaccíhuatl, el pico de Orizaba y la sierra de Tlaxcala, conocida por las tormentas que se forman alrededor de su cima' <a href= 'https://archive.org/details/vuesdescordille1humb/page/32/mode/2up?view=theater' target='_blank'>(Humboldt, 1810: I, 32)</a>.  Además, se pueden observar 'tres montañas más altas que el Mont Blanc, dos de las cuales son volcanes activos'.  Además, el resultado de la comparación que Humboldt hace entre pirámides y templos de diferentes partes del mundo basándose en similitudes morfológicas no implica únicamente que formen parte del pasado o que sean inferiores al arte europeo. Los teocalis, que previamente había denominado como 'montañas de ladrillos' son calificados por el prusiano como 'colinas artificiales erigidas en medio de la llanura y destinadas a servir de base a los altares' <a href='https://archive.org/details/vuesdescordille1humb/page/32/mode/2up?view=theater' target='_blank'>(Humboldt, 1810: I, 35)</a>.  De este modo, con la pirámide de Cholula Humboldt da una prueba concreta de a qué se refería con que las obras que los habitantes americanos de las montañas han producido 'llevan la impronta de la naturaleza salvaje de las Cordilleras' <a href= 'https://archive.org/details/vuesdescordille1humb/page/32/mode/2up?view=theater' target='_blank'>(Humboldt, 1810: I, 3-4)</a>. ",
         "opciones":   [{"btn": "<<<", "scene": "grecia" }]
       },
       "edificioAnimalesPlantasCholula": {
