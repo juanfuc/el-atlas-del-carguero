@@ -27,13 +27,13 @@
         "titulo": "El carguero Villanero en una vista andina",
         "texto": "De esta manera, la lámina V de Vues puede considerarse como un esfuerzo por situar en el espacio una serie de elementos que se vuelven visibles a través de una escena o cuadro de la naturaleza. Este cuadro está construido con una mirada pintoresca que enmarca diversos elementos con el fin de capturar una pluralidad de fenómenos naturales interactuando de manera compleja en un entorno montañoso. Más allá del disfrute estético, la lámina ubica en el espacio los contornos de las montañas, las muestras botánicas, las actividades productivas y los tipos humanos que llevan a cabo prácticas relacionadas con la verticalidad andina. Estos elementos proyectan su presencia desde el pasado prehispánico hasta el presente, ofreciendo una perspectiva completa de la realidad de la región. <br><br>En la parte inferior pueden observarse tres rutas para explorar las posibilidades del reconocimiento de la Vista del camino del Quindío como una representación de las relaciones entre las plantas, los cotnrnos de las montañas y las poblaciones con el contexto geográfico de la verticalidad americana.",
         "viz": {"filter": [[]], "type": "compare", "x":6, "y":235},
-        "opciones":  [ { "btn": "Geografía de las plantas", "scene": "mutisPalma"},{ "btn": "Fisionomía de las montañas", "scene": "contorno"}, {"btn": "Encuentro con Villanero", "scene":"señalando"} ]
+        "opciones":  [ {"btn": "<<<", "scene": "mapaQuindio"}, { "btn": "Geografía de las plantas", "scene": "mutisPalma"},{ "btn": "Fisionomía de las montañas", "scene": "contorno"}, {"btn": "Encuentro con Villanero", "scene":"señalando"} ]
       },
       "mutisPalma":{
         "titulo": "Jusitificacion geográfica del recorrido del camino del Quindío. Mutis no lo recorrió.",
         "texto":"Humboldt y Bonpland dan para haber atravesado el camino del Quindío una justificación geográfica. En Plantes équinoxiales de 1808 los naturalistas explican que tomaron esa ruta justamente porque la expedición botánica de José Celestino Mutis no la recorrió. Al director de la expedición es a quien dedican esa obra con un cuidado frontispicio.",
         "viz": {"filter": [[]], "type": "compare", "x":118, "y":117},
-        "opciones": [{"btn": "<<<", "scene": "compareVues"}, {"btn": "Palmas de chonto en el valle del Combeima", "scene":"palmasVues"}]
+        "opciones": [{"btn": "<<<", "scene": "compareVues"}, {"btn": "Palmas de chonto en el valle del Combeima", "scene":"palmasVues"}, {"btn":"Saltarse hasta 'Plantas utiles. El saber del Carguero'", "scene":"bijaoAgave"}]
       },
       "tableau":{
         "titulo": "Tableau Physique",
@@ -57,14 +57,18 @@
         "titulo": "influencia de la verticalidad andina en la realizacion del Tableau Physique.",
         "texto":"<a href='https://www.taylorfrancis.com/chapters/edit/10.4324/9781003231479-5/caldas-humboldt-andes-alberto-g%C3%B3mez-guti%C3%A9rrez' target='_blank'>Alberto Gómez Gutiérrez</a> elaboró una juiciosa cornología que demuestra el papel de la gestión simultánea de Caldas y Humboldt de la disciplina de la Geografía de las plantas. Esta relación de mutua influencia ha llevado a investigadores como Jorge Cañizares Esguerra a hablar de una influencia específicamente americana en la elaboración del Tableau physique.  Esta perspectiva se suma a otras propuestas de la historiografía. Por ejemplo, Sylvie Romanowski afirma que la inspiración proviene de la representación de los perfiles de Quito que se encuentran en la lámina 3 del Journal du voyage fait par ordre du roi, a l’équateur (París, 1751) de Charles-Marie de La Condamine. Además, Nils Güttler argumenta que también se basó en el modelo del “Coup verticale des montagnes vivaroises” del Abbé Jean-Louis Giraud-Soulavie (Figura 38),  mientras que Patrick Anthony ha insistido en la necesidad de volver sobre la formación de Humboldt como minero en el cameralismo prusiano para encontrar la génesis de su preocupación por la espacialidad vertical.<br><br> El panel de arriba se realizó con las imágenes de la base de datos marcadas como 'vertical' en la categoría 'modelo'. ",
         "viz": {"filter": [["modelo", "=", "vertical"]], "type":"pack", "x":"modelo", "y":"autor"},
-        "opciones": [ {"btn": "<<<", "scene": "perfilesCaldas"}, {"btn": "Volver a El carguero Villanero en una vista andina", "scene":"mapaQuindio"}, {"btn":"Plantas utiles. El saber del Carguero", "scene":"bijaoAgave"}]
+        "opciones": [ {"btn": "<<<", "scene": "perfilesCaldas"},{"btn":"Plantas utiles. El saber del Carguero", "scene":"bijaoAgave"},{"btn": "Volver a El carguero Villanero en una vista andina", "scene":"mapaQuindio"}]
       },
       "bijaoAgave":{
         "imagen": "assets/imgs-2/6.jpg",
+        "titulo": "Plantas utiles. El saber del Carguero",
+        "texto":"En la lámina V de Vues se pueden ver otras plantas situadas en un contexto geográfico específico. Estas son el Agave o Fique que se encuentra en el extremo derecho de la lámina en el primer plano. Y unas hojas de Vijao o Bijao que llevan en sus manos el segundo y el tercer carguero de la fila. La importancia del Agave y el Bijao en la lámina V de Vues radica en su utilidad para los viajeros, ya que los cargueros emplean estas plantas para construir los campamentos para pernoctar y para resguardar a los viajeros de las frecuentes tormentas que suelen ocurrir en ese paso.",
         "meta": 6,
         "options": [
+          {"btn":"<<<","scene":"vertical"},
           { "btn": "Bijao", "scene": "packBijao"},
-          { "btn": "Agave", "scene": "agave"}
+          { "btn": "Agave", "scene": "agave"},
+          {"btn":"Volver a inicio", "scene":"inicio"}
         ],
         "areas": [
           { "x": 907, "y": 660, "w": 316, "h": 474, "btn": "", "tooltip": "", "scene": "villanero" },
@@ -106,7 +110,7 @@
         "imagen": "assets/imgs-2/128.jpg",
         "meta": 121,
         "text": "Hay un Fique o Agave florecido en el lado derecho de la Lámina V de Vues. Esta planta se utiliza para la elaboración de cuerdas que atan las hojas de Bijao y aseguran las tiendas de campaña.",
-        "options": [ { "btn": "Ruta principal", "scene": "inicio"} ],
+        "options": [ {"btn":"<<<", "scene":"bijaoAgave"},{ "btn": "Agave", "scene": "packAgave"} ],
         "areas": [
           {
             "x": 113,
@@ -297,7 +301,11 @@
       },
       "montajeContorno":{
         "imagen": "assets/imgs/291.jpg",
+        "texto": "Humboldt dice la lámina V de Vues representa: 'un lugar muy pintoresco a la entrada de la Montaña del Quindío, cerca de Ibagué, en un punto al que llaman el pie de la Cuesta'. Afirma que en la vista de la lámina 'el cono truncado del Tolima, cubierto de nieves perpetuas y recordando por su forma a Cotopaxi y al Cayambe, se yergue por encima de una masa de rocas graníticas' <a href='https://archive.org/details/vuesdescordille1humb/page/16/mode/2up?view=theater' target=''>(Humboldt, 1810: 17)</a>.",
         "meta": "284",
+        "opciones": [
+          {"btn":"<<<","scene":"bocetosTolima"}
+        ],
         "areas": [
           {
             "x": 444,
@@ -329,9 +337,10 @@
         ]
       },
       "contorno": {
+        "titulo":"Panel que muestra los bocetos y dibujos preparatorios de los contornos de las láminas de Vues sobre los volcanes del Tolima, el Contopaxi, el Pichincha y el Cayambe",
         "viz": {"filter":[["modelo", "=", "contorno"]], "type": "pack", "x": "modelo", "y": "tecnica"},
-        "text": "",
-        "options": [ { "btn": "<<<", "scene": "inicio" }, {"btn": "Cayambe", "scene": "cayambe"}, {"btn": "Cotopaxi", "scene": "cotopaxi"}, {"btn": "Pichincha", "scene": "pichincha"}, {"btn": "Tolima", "scene": "bocetosTolima"} ]
+        "text": "En la descripción de la lámina X del volcán Cotopaxi, Humboldt afirma que es de gran interés para la “geología poder comparar las formas de las montañas, en los lugares más alejados del globo, como se compara la fisionomía de las plantas en zonas climáticas diversas”<a href='https://archive.org/details/vuesdescordille1humb/page/40/mode/2up?view=theater' target='_blank'>(Humboldt, 1810: 41)</a>. Esta afirmación indica que la aparición en las láminas de los contornos de las montañas no es en absoluto gratuita. Estos contornos son dibujados con precisión, gracias a mediciones trigonométricas cuyos datos se toman de rigurosas observaciones hechas desde varias perspectivas con instrumentos de precisión. En la rl gráfico de arriba se pueden apreciar numerosos bocetos y acuarelas que incluyen mediciones, operaciones matemáticas y diversas convenciones para resaltar información relevante sobre los contornos de las montañas. Estos detalles serán posteriormente transformados en grabados y publicados en obras como Vues o el Ensayo sobre la Geografía de las Plantas.<br><br> *El panel Circle Tree Map que contrasta la categoría “modelo” anotada como “contorno” con “Técnica”. Muestra en dibujo y acuarela los bocetos para representar desde diferentes perspectivas los contornos de las montañas que finalmente fueron publicados de Vues. ",
+        "options": [ { "btn": "Volver a inicio", "scene": "inicio" }, {"btn": "<<<", "scene":"compareVues"}, {"btn": "Tolima", "scene": "bocetosTolima"}, {"btn": "Cayambe", "scene": "cayambe"}, {"btn": "Cotopaxi", "scene": "cotopaxi"}, {"btn": "Pichincha", "scene": "pichincha"} ]
       },
       "señalando": {
         "viz": {"filter":[["modelo", "=", "señalando"]], "type": "pack", "x": "modelo", "y": "modelo"},
@@ -346,27 +355,42 @@
         "options":  [ { "btn": "<<<", "scene": "comparePintorescoVertical" } ]
       },
       "packAgave": {
+        "titulo": "Panel que contrasta diferentes representaciones del Bijao",
+        "texto":"En el panel se pueden observar diferentes representaciones del Bijao en la lámina V de Vues y en el diario de Humboldt. Se presenta también un contraste con una planta dibujada en el contexto de la epistemología visual prelineana, y otra en el contexto de la espistemología linneana. La Alöe Barbadensis se encuentra en la segunda edición de 1774 del Horti elthamensis plantarum de Jacobi Sherard. Esta edición es ampliada y anotada por Linneo, quien reclasificó la planta como Agave Americano. En contraste, las láminas de Humboldt sitúan las plantas en contextos geográficos relacionados con las características espaciales de la verticalidad andina americana. El Agave, por ejemplo, es representado en la lámina sembrado y florecido en medio de la vista del paso del Quindío. También es representado transformado en las cuerdas que sirven para amarrar las hojas de Bijao para hacer las tiendas de campaña ",
         "viz": {"filter": [["modelo", "=", "agave"]], "type": "pack", "x": "modelo", "y": "periodo"},
-        "options":  [ { "btn": "<<<", "scene": "inicio" }, { "btn": "Comparación Agave de Humboldt", "scene": "compareAgave" }  ]
+        "options":  [ { "btn": "<<<", "scene": "bijaoAgave" }, { "btn": "Comparación Agave de Humboldt", "scene": "compareAgave" }  ]
 
       },
       "compareAgave": {
         "viz": {"filter": [[]], "type": "compare", "x": 121, "y": 120},
         "title": "Comparación Agave florecido / Agave convertido en cuerdas para armar una tienda",
         "texto":"En esta gráfica se puede observar un contraste entre la representación que Humboldt hace en su diario y en la lámina V de Vues. Esto muestra diferentes modos de representar ejemplares botánicos más allá de la lógica clasificación de Linneo. En ste caso en la lámima se puede ver un Agave florecido en su contexto natural específico. En el segundo caso, el Agave se ha transformado en una cuerda que permite amarrar las hojas de bijao para resguardarse de la lluvia.",
-        "options":  [ { "btn": "<<<", "scene": "packAgave" } ]
+        "options":  [ { "btn": "<<<", "scene": "packAgave" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}, {"btn":"Inicio", "scene":"inicio"} ]
       },
       "packBijao": {
+        "titulo": "Panel que contrasta diferentes representaciones del Bijao",
+        "texto":"En el panel se pueden observar diferentes representaciones del Bijao en la lámina V de Vues y en el diario de Humboldt. Se presenta también un contraste con una planta dibujada en medio de una epistemología visual prelineana, en la que la Musa es puesta individualmente consdierada en un fondo descontextualizado geográficamente. Por el contrario, en las representaciones de Humboldt el Bijao está siendo usado por los cargueros, y es puesto en uso en la contrucción de una tienda de campaña. Es necesario recordar que fue el mismo Humboldt el que habló del parecido entre la hoja de Bijao y la hoja de la Musa. <br><br>*La visualización se realizó mostrando en un gráfico Circle Tree Map mostrando las imágenes anotadas como 'Bijao' en la categoría 'modelo'",
         "viz": {"filter": [["modelo", "=", "bijao"]], "type": "pack", "x": "modelo", "y": "modelo"},
-        "options":  [ { "btn": "Volver al inicio", "scene": "inicio" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}, {"btn": "Comparación representaciones del Bijao", "scene": "compareBijao1"} ]
-      },
-      "compareBijao1":{
-        "viz": {"filter": [[]], "type": "compare", "x": 239, "y": 122},
-        "options":  [ { "btn": "Volver al inicio", "scene": "inicio" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}, {"btn": "Comparación representaciones del Bijao", "scene": "compareBijao2"} ]
+        "options":  [ {"btn": "<<<", "scene": "bijaoAgave"}, {"btn": "Comparación representaciones del Bijao", "scene": "compareBijao1"} ]
       },
       "compareBijao2":{
+        "titulo":"Comparación entre las hojas de Musa y las hojas de Bijao siendo transpotadas por el carguero",
+        "texto":"En el diario, Humboldt brinda más detalles sobre la clasificación taxonómica y los lugares donde crece, lo cual resulta relevante desde una perspectiva geográfica de la botánica. El prusiano se refiere a las hojas como las “tejas” o “casa”. Taxonómicamente las designa con el nombre Novum Genus Monandriæ. Afirma haberlas dibujado y descrito en el río Magdalena. También afirma que Mutis, quien solo conoció la planta a través de los dibujos de Humboldt, le confesó que se trataba de un nuevo género botánico. Humboldt menciona que la planta conocida como Bijao es llamada así por los americanos, quienes utilizan este nombre para referirse a todas las heliconáceas y la mayoría de las Scitaminea. Esta planta crece ampliamente en el valle del Magdalena y en los ríos que desembocan en él. También se puede encontrar en la región occidental de los Andes, específicamente en el río Quindío, La Vieja, y entre Cartago y Buga. <a href='https://descubridor.banrepcultural.org/discovery/fulldisplay?docid=alma991005445879707486&context=L&vid=57BDLRDC_INST:57BDLRDC_INST&lang=es&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=ALL&query=any,contains,diarios%20humboldt&offset=0' target='_blank'>(Humboldt, [1801]1982: 115a)</a>",
+        "viz": {"filter": [[]], "type": "compare", "x": 239, "y": 122},
+        "options":  [{ "btn":"<<<","scene":"compareBijao1" }, {"btn":"Tienda de campaña", "scene":"tienda"}, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}] 
+      },
+      "compareBijao1":{
+        "titulo":"Comparación entre el dibujo de Humboldt en su diario y el rollo de hojas convertidas en tela para armar la tienda de campaña",
+        "texto":" Con respecto al Bijao Humboldt afirma en la descripción de Vues lo siguiente:<br><br>El rollo que se ve en la mano del tercer carguero es el techo, o más bien, la casa móvil que el viajero utiliza al atravesar los bosques de Quindiu. Cuando llegamos a Ibagué y nos preparamos para el viaje, se cortan en las montañas cercanas varios centenares de hojas de vijao, una planta de la familia de los bananos que forma un nuevo género similar al Thalia y que no debe confundirse con el Heliconia bihai. Estas hojas, membranosas y lustrosas como las del Musa, tienen forma ovalada y miden cincuenta y cuatro centímetros (veinte pulgadas) de longitud por treinta y siete centímetros (catorce pulgadas) de anchura. Su superficie inferior es de color blanco plateado y está cubierta de una sustancia harinosa que se desprende en escamas. Es este esmalte especial el que las hace capaces de resistir la lluvia durante mucho tiempo.<a href='https://archive.org/details/vuesdescordille1humb/page/18/mode/2up?view=theater' target='_blank'>(Humboldt, 1810: 18)</a>",
         "viz": {"filter": [[]], "type": "compare", "x": 119, "y": 240},
-        "options":  [ { "btn": "Volver al inicio", "scene": "inicio" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}]    
+        "options":  [ {"btn": "<<<", "scene": "packBijao"}, {"btn": "Precisiones taxonomicas del Bijao", "scene": "compareBijao2"} ]
+      },
+      "tienda": {
+        "titulo": "Tienda de campaña con hojas de Bijao amarradas con cuerdas hechas del Agave",
+        "texto":"Humboldt ahonda en las técnicas de construcción que los cargueros emplean haciendo las tiendas de campaña con hojas de Bijao: 'antes de emprender un viaje, las hojas son preparadas realizando una incisión o doblez en el nervio central de la hoja'<a href='https://descubridor.banrepcultural.org/discovery/fulldisplay?docid=alma991005445879707486&context=L&vid=57BDLRDC_INST:57BDLRDC_INST&lang=es&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=ALL&query=any,contains,diarios%20humboldt&offset=0' target='_blank'>(Humboldt, [1801]1982: 115a)</a>. Esta técnica permite que los cargueros cuelguen las hojas como tejas en los hilos o bejucos que forman el armazón de la casa. Los hilos o cuerdas que unen las hojas se realizan a partir de Agave o Fique. Humboldt aporta un <a href='https://digital.staatsbibliothek-berlin.de/werkansicht?PPN=PPN779883861&PHYSID=PHYS_0418&view=overview-toc&DMDID=DMDLOG_0001' target='_blank'>dibujo</a> de la casa con las hojas amarradas con el Agave. El autor de Vues resalta la notable resistencia de los techos hechos con hojas de Bijao ante los aguaceros, incluso superando a las carpas de campaña tradicionales. Su admiración aumenta al considerar la gran cantidad de agua que han resistido durante más 96 horas seguidas, en aguaceros acompañados de truenos y rayos. Esta capacidad de resistencia se debe a una capa blanca jabonosa en el revés de las hojas, que evita la penetración del agua. Sin embargo, una vez que las hojas se secan, esta capa debe ser retirada, lo que indica que es hora de abandonar la cordillera debido a la disminución de la capacidad de resistencia del techo. Estas técnicas de construcción son caracterizadas por el prusiano como 'viejas artes de la experiencia indígena, aprendidas por los españoles'<a href='https://descubridor.banrepcultural.org/discovery/fulldisplay?docid=alma991005445879707486&context=L&vid=57BDLRDC_INST:57BDLRDC_INST&lang=es&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=ALL&query=any,contains,diarios%20humboldt&offset=0' target='_blank'>(Humboldt, [1801]1982: 115a)</a>",
+        "imagen":"assets/imgs/127.jpg",
+        "meta": "120",
+        "opciones": [{ "btn":"<<<","scene":"compareBijao2" }, {"btn": "Volver a Plantas útiles", "scene": "bijaoAgave"}, {"btn":"Inicio", "scene":"inicio"}] 
       },
       "cayambe": {
         "imagen":"assets/imgs/251.jpg",
@@ -629,6 +653,9 @@
         "opciones":   [{"btn": "<<<", "scene": "grecia" }]
       },
       "bocetosTolima":{
+        "titulo":"Montaje con un detalle del contorno del volcán Tolima en la lámina V de Vues contrastado con los bocetos que aparecen en los diarios",
+        "meta":"285",
+        "texto": "",
         "imagen":"assets/imgs/292.jpg",
         "opciones":   [{"btn": "<<<", "scene": "contorno" }],
         "areas": [
@@ -693,7 +720,7 @@
             "h": 408,
             "btn": "",
             "tooltip": "",
-            "name": "cenitalQuindio"
+            "scene": "cenitalQuindio"
           }
         ]
       },
@@ -711,6 +738,7 @@
       },
      "pichincha":{
       "imagen":"assets/imgs/261.jpg",
+      "meta":"254",
         "opciones":   [{"btn": "<<<", "scene": "contorno" }],
         "areas": [
           {
