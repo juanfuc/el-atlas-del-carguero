@@ -1,0 +1,7 @@
+{
+    "inicio":{
+    "titulo": "Panel scatterplot de representaciones actuales del carguero",
+    "viz": {"filter":[["fecha", ">", "1900"], ["otros", "=", "false"]], "type": "scatter", "x": "fecha", "y": "genero"},
+    "texto": "Este gráfico contrasta la categoría 'Periodo' con la categoría 'Género'. El conjunto de los datos se filtró con imágenes posteriores a 1900 y que solo se refieren a los cargueros.<br><br> *Se puede interactuar con las imágenes para detallarlas y acceder a sus metadatos"   
+}
+}
