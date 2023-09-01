@@ -305,9 +305,16 @@
       { "x": 1498, "y": 697, "w": 201, "h": 609, "btn": "", "tooltip": "", "scene": "mujerConPajaro"}
     ]
   },
-  "colgadaBlake": { "meta": 186, "imagen": "assets/imgs/192.jpg"},
+  "colgadaBlake": { 
+    "meta": 186, 
+    "imagen": "assets/imgs/192.jpg",
+    "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]
+  },
   "sacerdote": {
-    "meta": 181, "imagen":"assets/imgs/187.jpg","areas": [ { "x": 112, "y": 383, "w": 150, "h": 440, "btn": "", "tooltip": "", "scene": "roulinMayor" } ]    
+    "meta": 181, 
+    "imagen":"assets/imgs/187.jpg",
+    "areas": [ { "x": 112, "y": 383, "w": 150, "h": 440, "btn": "", "tooltip": "", "scene": "roulinMayor" } ],
+    "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]    
   },
   "agachado": {
     "meta": 180,
@@ -315,15 +322,36 @@
     "areas": [
       { "x": 109, "y": 294, "w": 195, "h": 376, "btn": "", "tooltip": "", "scene": "roulinPlaza" },
       { "x": 245, "y": 382, "w": 136, "h": 229, "btn": "", "tooltip": "", "scene": "roulinPlaza" }
-    ]
+    ],
+    "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]
   },
-  "cargandoNino": { "meta": 178, "imagen": "assets/imgs/184.jpg" },
+  "cargandoNino": { 
+    "meta": 178, 
+    "imagen": "assets/imgs/184.jpg", 
+    "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]
+  },
   "carguero": {
-    "meta": 14, "imagen":"assets/imgs/11.jpg","areas": [ { "x": 549, "y": 876, "w": 276, "h": 426, "btn": "", "tooltip": "", "scene": "cargueroRoulin" } ]
+    "meta": 14, 
+    "imagen":"assets/imgs/11.jpg",
+    "areas": [ { "x": 549, "y": 876, "w": 276, "h": 426, "btn": "", "tooltip": "", "scene": "cargueroRoulin" } ],
+    "options": [ { "btn": "Volver a Costumes/Colombie", "scene": "costumesColombie"} ]
   },
-  "cargueroRoulin": { "meta": 11, "imagen":"assets/imgs/8.jpg" }, "plantadorSurinam": { "meta": 187, "imagen":"assets/imgs/193.jpg" },
+  "cargueroRoulin": { 
+    "meta": 11, 
+    "imagen":"assets/imgs/8.jpg",
+    "options": [ { "btn": "<<<", "scene": "carguero"} ]
+  }, 
+  "plantadorSurinam": { 
+    "meta": 187, 
+    "imagen":"assets/imgs/193.jpg",
+    "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]
+  },
   "mujerSombrero": {
-    "meta": 179, "imagen":"assets/imgs/185.jpg", "areas": [ { "x": 315, "y": 441, "w": 150, "h": 447, "btn": "", "tooltip": "", "scene": "roulinMayor" } ]
+    "meta": 179, 
+    "imagen":"assets/imgs/185.jpg", 
+    "areas": [ { "x": 315, "y": 441, "w": 150, "h": 447, "btn": "", "tooltip": "", 
+    "scene": "roulinMayor" } ],
+    "options": [ { "btn": "Volver a Costumes/Colombie", "scene": "costumesColombie"} ]
   },
   "roulinPrensa": {
     "viz": {"filter": [ ["modelo", "=", "roulin"], ["soporte", "=", "prensa"] ], "type": "pack", "x": "modelo", "y": "soporte"},
@@ -331,5 +359,19 @@
     "text": "Al eliminar la figura del fondo, A. de Lattre utilizó el Carguero para contrastar la práctica del camino del Quindío con los estiveros del Putumayo. A partir de esta fuente, la imagen fue grabada en una placa de grabado y se utilizó en proyectos de impresión masiva en Europa por varias empresas de prensa ilustrada en países como Francia (Magasin Pittoresque, 1848), España (Semanario Pintoresco Español, 1849) y Alemania (Das Pfennig-Magazin, 1851). Estas revistas eran versiones locales de The Penny Magazine, publicada por primera vez en el Reino Unido en 1832 por la Sociedad para la difusión del conocimiento útil. El modelo de esta revista semanal se extendió pronto a varias partes de Europa, difundiendo no solo el formato de una publicación, sino también aplicaciones tecnológicas de grabado en madera y prototipado, un proceso de racionalización de la producción de impresiones, un modelo de negocio y un ideal de correlación entre la expansión del mercado de lectores y la posibilidad de brindar acceso a conocimiento 'útil' a las clases trabajadoras. Magasin Pittoresque, por ejemplo, fue publicada por primera vez por Édouard Charton en 1833 y está asociada con una facción del saintsimonismo llamada 'saintsimonismo republicano'. Charton se refería expresamente a sus proyectos editoriales como medios mediante los cuales pretendía 'combatir la ignorancia de las clases populares' (Le Magasin Pittoresque, 1833, p. 98). La difusión fue posible gracias a la reciente invención de procesos de grabado en placa de metal útiles para obtener copias en 'cientos de miles' (Le Magasin Pittoresque, 1833, p. 98). En este contexto, las imágenes llegaron a un público más amplio y ofrecieron una forma más rápida y divertida de aprender de la que los niños se beneficiarían: 'en lugar de dejar que duerman o se bostecen sobre un libro, llévalos a menudo a museos, e incluso a bulevares, georamas y panoramas' (Le Magasin Pittoresque, 1833, p. 99). Del mismo modo, en el Semanario Pintoresco Español, las imágenes se mencionan por su función de 'representar cosas ausentes como si estuvieran delante de nosotros y que solo podríamos ver con el costo de viajes arduos y grandes gastos' (Semanario Pintoresco Español, 1844, p. 48).",
     "options": [ { "btn": "Empezar de nuevo", "scene": "start"} ]
   },
-  "familia": { "meta": 183 }, "mujerConPajaro": { "meta": 184 }, "colgado": { "meta": 185 }
+  "familia": { 
+    "meta": 183,
+    "imagen": "assets/imgs/189.jpg",
+    "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]
+    }, 
+  "mujerConPajaro": { 
+      "meta": 184,
+      "imagen": "assets/imgs/190.jpg",
+      "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]
+    }, 
+  "colgado": { 
+      "meta": 185,
+      "imagen": "assets/imgs/191.jpg",
+      "options": [ { "btn": "<<<", "scene": "costumesColombie"} ]
+    }
 }
